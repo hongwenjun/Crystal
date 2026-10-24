@@ -1,3 +1,10 @@
+# Mir2 服务器程序 部分汉化
+## 编译命令:
+### dotnet.exe build '.\Legend of Mir.sln'
+
+##  Download .NET 8.0 SDK (v8.0.404) - Windows x64 Installer
+##  dotnet-sdk-8.0.404-win-x64.exe
+
 <h1 align="center">
 Legend of Mir 2 - Official Public Crystal Source
 </h2>

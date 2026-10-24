@@ -266,7 +266,7 @@
             this.tabPageAmulet.Size = new System.Drawing.Size(468, 320);
             this.tabPageAmulet.TabIndex = 6;
             this.tabPageAmulet.Tag = "Amulet";
-            this.tabPageAmulet.Text = "Amulet";
+            this.tabPageAmulet.Text = "护身符";
             this.tabPageAmulet.UseVisualStyleBackColor = true;
             // 
             // listBoxAmulet
@@ -291,7 +291,7 @@
             this.tabPageArmour.Size = new System.Drawing.Size(468, 374);
             this.tabPageArmour.TabIndex = 1;
             this.tabPageArmour.Tag = "Armour";
-            this.tabPageArmour.Text = "Armour";
+            this.tabPageArmour.Text = "衣服";
             this.tabPageArmour.UseVisualStyleBackColor = true;
             // 
             // listBoxArmour
@@ -315,7 +315,7 @@
             this.tabPageBait.Size = new System.Drawing.Size(468, 374);
             this.tabPageBait.TabIndex = 29;
             this.tabPageBait.Tag = "Bait";
-            this.tabPageBait.Text = "Bait";
+            this.tabPageBait.Text = "鱼饵";
             this.tabPageBait.UseVisualStyleBackColor = true;
             // 
             // listBoxBait
@@ -339,7 +339,7 @@
             this.tabPageBells.Size = new System.Drawing.Size(468, 374);
             this.tabPageBells.TabIndex = 22;
             this.tabPageBells.Tag = "Bells";
-            this.tabPageBells.Text = "Bells";
+            this.tabPageBells.Text = "铃铛";
             this.tabPageBells.UseVisualStyleBackColor = true;
             // 
             // listBoxBells
@@ -364,7 +364,7 @@
             this.tabPageBelt.Size = new System.Drawing.Size(468, 374);
             this.tabPageBelt.TabIndex = 7;
             this.tabPageBelt.Tag = "Belt";
-            this.tabPageBelt.Text = "Belt";
+            this.tabPageBelt.Text = "腰带";
             this.tabPageBelt.UseVisualStyleBackColor = true;
             // 
             // listBoxBelt
@@ -389,7 +389,7 @@
             this.tabPageBook.Size = new System.Drawing.Size(468, 374);
             this.tabPageBook.TabIndex = 18;
             this.tabPageBook.Tag = "Book";
-            this.tabPageBook.Text = "Book";
+            this.tabPageBook.Text = "书籍";
             this.tabPageBook.UseVisualStyleBackColor = true;
             // 
             // listBoxBook
@@ -414,7 +414,7 @@
             this.tabPageBoot.Size = new System.Drawing.Size(468, 374);
             this.tabPageBoot.TabIndex = 8;
             this.tabPageBoot.Tag = "Boots";
-            this.tabPageBoot.Text = "Boot";
+            this.tabPageBoot.Text = "靴子";
             this.tabPageBoot.UseVisualStyleBackColor = true;
             // 
             // listBoxBoot
@@ -439,7 +439,7 @@
             this.tabPageBracelet.Size = new System.Drawing.Size(468, 374);
             this.tabPageBracelet.TabIndex = 4;
             this.tabPageBracelet.Tag = "Bracelet";
-            this.tabPageBracelet.Text = "Bracelet";
+            this.tabPageBracelet.Text = "手镯";
             this.tabPageBracelet.UseVisualStyleBackColor = true;
             // 
             // listBoxBracelet
@@ -464,7 +464,7 @@
             this.tabPageCraftingMaterial.Size = new System.Drawing.Size(468, 356);
             this.tabPageCraftingMaterial.TabIndex = 14;
             this.tabPageCraftingMaterial.Tag = "CraftingMaterial";
-            this.tabPageCraftingMaterial.Text = "Crafting Material";
+            this.tabPageCraftingMaterial.Text = "制作材料";
             this.tabPageCraftingMaterial.UseVisualStyleBackColor = true;
             // 
             // listBoxCraftingMaterial
@@ -488,7 +488,7 @@
             this.tabPageFinder.Size = new System.Drawing.Size(468, 356);
             this.tabPageFinder.TabIndex = 30;
             this.tabPageFinder.Tag = "Finder";
-            this.tabPageFinder.Text = "Finder";
+            this.tabPageFinder.Text = "探测仪";
             this.tabPageFinder.UseVisualStyleBackColor = true;
             // 
             // listBoxFinder
@@ -512,7 +512,7 @@
             this.tabPageFish.Size = new System.Drawing.Size(468, 356);
             this.tabPageFish.TabIndex = 32;
             this.tabPageFish.Tag = "Fish";
-            this.tabPageFish.Text = "Fish";
+            this.tabPageFish.Text = "鱼";
             this.tabPageFish.UseVisualStyleBackColor = true;
             // 
             // listBoxFish
@@ -536,7 +536,7 @@
             this.tabPageFloat.Size = new System.Drawing.Size(468, 356);
             this.tabPageFloat.TabIndex = 28;
             this.tabPageFloat.Tag = "Float";
-            this.tabPageFloat.Text = "Float";
+            this.tabPageFloat.Text = "浮漂";
             this.tabPageFloat.UseVisualStyleBackColor = true;
             // 
             // listBoxFloat
@@ -560,7 +560,7 @@
             this.tabPageFood.Size = new System.Drawing.Size(468, 356);
             this.tabPageFood.TabIndex = 26;
             this.tabPageFood.Tag = "Food";
-            this.tabPageFood.Text = "Food";
+            this.tabPageFood.Text = "食物";
             this.tabPageFood.UseVisualStyleBackColor = true;
             // 
             // listBoxFood
@@ -585,7 +585,7 @@
             this.tabPageGem.Size = new System.Drawing.Size(468, 356);
             this.tabPageGem.TabIndex = 16;
             this.tabPageGem.Tag = "Gem";
-            this.tabPageGem.Text = "Gem";
+            this.tabPageGem.Text = "宝石";
             this.tabPageGem.UseVisualStyleBackColor = true;
             // 
             // listBoxGem
@@ -610,7 +610,7 @@
             this.tabPageHelmet.Size = new System.Drawing.Size(468, 356);
             this.tabPageHelmet.TabIndex = 2;
             this.tabPageHelmet.Tag = "Helmet";
-            this.tabPageHelmet.Text = "Helmet";
+            this.tabPageHelmet.Text = "头盔";
             this.tabPageHelmet.UseVisualStyleBackColor = true;
             // 
             // listBoxHelmet
@@ -634,7 +634,7 @@
             this.tabPageHook.Size = new System.Drawing.Size(468, 356);
             this.tabPageHook.TabIndex = 27;
             this.tabPageHook.Tag = "Hook";
-            this.tabPageHook.Text = "Hook";
+            this.tabPageHook.Text = "鱼钩";
             this.tabPageHook.UseVisualStyleBackColor = true;
             // 
             // listBoxHook
@@ -658,7 +658,7 @@
             this.tabPageMask.Size = new System.Drawing.Size(468, 356);
             this.tabPageMask.TabIndex = 25;
             this.tabPageMask.Tag = "Mask";
-            this.tabPageMask.Text = "Mask";
+            this.tabPageMask.Text = "面罩";
             this.tabPageMask.UseVisualStyleBackColor = true;
             // 
             // listBoxMask
@@ -683,7 +683,7 @@
             this.tabPageMeat.Size = new System.Drawing.Size(468, 356);
             this.tabPageMeat.TabIndex = 13;
             this.tabPageMeat.Tag = "Meat";
-            this.tabPageMeat.Text = "Meat";
+            this.tabPageMeat.Text = "肉";
             this.tabPageMeat.UseVisualStyleBackColor = true;
             // 
             // listBoxMeat
@@ -708,7 +708,7 @@
             this.tabPageMount.Size = new System.Drawing.Size(468, 338);
             this.tabPageMount.TabIndex = 17;
             this.tabPageMount.Tag = "Mount";
-            this.tabPageMount.Text = "Mount";
+            this.tabPageMount.Text = "坐骑";
             this.tabPageMount.UseVisualStyleBackColor = true;
             // 
             // listBoxMount
@@ -733,7 +733,7 @@
             this.tabPageNecklace.Size = new System.Drawing.Size(468, 338);
             this.tabPageNecklace.TabIndex = 3;
             this.tabPageNecklace.Tag = "Necklace";
-            this.tabPageNecklace.Text = "Necklace";
+            this.tabPageNecklace.Text = "项链";
             this.tabPageNecklace.UseVisualStyleBackColor = true;
             // 
             // listBoxNecklace
@@ -758,7 +758,7 @@
             this.tabPageNothing.Size = new System.Drawing.Size(468, 338);
             this.tabPageNothing.TabIndex = 19;
             this.tabPageNothing.Tag = "Nothing";
-            this.tabPageNothing.Text = "Nothing";
+            this.tabPageNothing.Text = "无";
             this.tabPageNothing.UseVisualStyleBackColor = true;
             // 
             // listBoxNothing
@@ -783,7 +783,7 @@
             this.tabPageOre.Size = new System.Drawing.Size(468, 338);
             this.tabPageOre.TabIndex = 12;
             this.tabPageOre.Tag = "Ore";
-            this.tabPageOre.Text = "Ore";
+            this.tabPageOre.Text = "矿石";
             this.tabPageOre.UseVisualStyleBackColor = true;
             // 
             // listBoxOre
@@ -808,7 +808,7 @@
             this.tabPagePotion.Size = new System.Drawing.Size(468, 338);
             this.tabPagePotion.TabIndex = 11;
             this.tabPagePotion.Tag = "Potion";
-            this.tabPagePotion.Text = "Potion";
+            this.tabPagePotion.Text = "药水";
             this.tabPagePotion.UseVisualStyleBackColor = true;
             // 
             // listBoxPotion
@@ -832,7 +832,7 @@
             this.tabPageQuest.Size = new System.Drawing.Size(468, 338);
             this.tabPageQuest.TabIndex = 33;
             this.tabPageQuest.Tag = "Quest";
-            this.tabPageQuest.Text = "Quest";
+            this.tabPageQuest.Text = "任务";
             this.tabPageQuest.UseVisualStyleBackColor = true;
             // 
             // listBoxQuest
@@ -856,7 +856,7 @@
             this.tabPageReel.Size = new System.Drawing.Size(468, 338);
             this.tabPageReel.TabIndex = 31;
             this.tabPageReel.Tag = "Reel";
-            this.tabPageReel.Text = "Reel";
+            this.tabPageReel.Text = "卷线器";
             this.tabPageReel.UseVisualStyleBackColor = true;
             // 
             // listBoxReel
@@ -880,7 +880,7 @@
             this.tabPageReins.Size = new System.Drawing.Size(468, 338);
             this.tabPageReins.TabIndex = 21;
             this.tabPageReins.Tag = "Reins";
-            this.tabPageReins.Text = "Reins";
+            this.tabPageReins.Text = "缰绳";
             this.tabPageReins.UseVisualStyleBackColor = true;
             // 
             // listBoxReins
@@ -904,7 +904,7 @@
             this.tabPageRibbon.Size = new System.Drawing.Size(468, 338);
             this.tabPageRibbon.TabIndex = 24;
             this.tabPageRibbon.Tag = "Ribbon";
-            this.tabPageRibbon.Text = "Ribbon";
+            this.tabPageRibbon.Text = "丝带";
             this.tabPageRibbon.UseVisualStyleBackColor = true;
             // 
             // listBoxRibbon
@@ -929,7 +929,7 @@
             this.tabPageRing.Size = new System.Drawing.Size(468, 320);
             this.tabPageRing.TabIndex = 5;
             this.tabPageRing.Tag = "Ring";
-            this.tabPageRing.Text = "Ring";
+            this.tabPageRing.Text = "戒指";
             this.tabPageRing.UseVisualStyleBackColor = true;
             // 
             // listBoxRing
@@ -953,7 +953,7 @@
             this.tabPageSaddle.Size = new System.Drawing.Size(468, 320);
             this.tabPageSaddle.TabIndex = 23;
             this.tabPageSaddle.Tag = "Saddle";
-            this.tabPageSaddle.Text = "Saddle";
+            this.tabPageSaddle.Text = "马鞍";
             this.tabPageSaddle.UseVisualStyleBackColor = true;
             // 
             // listBoxSaddle
@@ -977,7 +977,7 @@
             this.tabPageScript.Size = new System.Drawing.Size(468, 320);
             this.tabPageScript.TabIndex = 20;
             this.tabPageScript.Tag = "Script";
-            this.tabPageScript.Text = "Script";
+            this.tabPageScript.Text = "脚本";
             this.tabPageScript.UseVisualStyleBackColor = true;
             // 
             // listBoxScript
@@ -1002,7 +1002,7 @@
             this.tabPageScroll.Size = new System.Drawing.Size(468, 320);
             this.tabPageScroll.TabIndex = 15;
             this.tabPageScroll.Tag = "Scroll";
-            this.tabPageScroll.Text = "Scroll";
+            this.tabPageScroll.Text = "卷轴";
             this.tabPageScroll.UseVisualStyleBackColor = true;
             // 
             // listBoxScroll
@@ -1027,7 +1027,7 @@
             this.tabPageStone.Size = new System.Drawing.Size(468, 320);
             this.tabPageStone.TabIndex = 9;
             this.tabPageStone.Tag = "Stone";
-            this.tabPageStone.Text = "Stone";
+            this.tabPageStone.Text = "石头";
             this.tabPageStone.UseVisualStyleBackColor = true;
             // 
             // listBoxStone
@@ -1052,7 +1052,7 @@
             this.tabPageTorch.Size = new System.Drawing.Size(468, 320);
             this.tabPageTorch.TabIndex = 10;
             this.tabPageTorch.Tag = "Torch";
-            this.tabPageTorch.Text = "Torch";
+            this.tabPageTorch.Text = "火把";
             this.tabPageTorch.UseVisualStyleBackColor = true;
             // 
             // listBoxTorch
@@ -1077,7 +1077,7 @@
             this.tabPageWeapon.Size = new System.Drawing.Size(468, 320);
             this.tabPageWeapon.TabIndex = 0;
             this.tabPageWeapon.Tag = "Weapon";
-            this.tabPageWeapon.Text = "Weapon";
+            this.tabPageWeapon.Text = "武器";
             this.tabPageWeapon.UseVisualStyleBackColor = true;
             // 
             // tabPageAwakening
@@ -1089,7 +1089,7 @@
             this.tabPageAwakening.Size = new System.Drawing.Size(468, 374);
             this.tabPageAwakening.TabIndex = 34;
             this.tabPageAwakening.Tag = "Awakening";
-            this.tabPageAwakening.Text = "Awakening";
+            this.tabPageAwakening.Text = "觉醒";
             this.tabPageAwakening.UseVisualStyleBackColor = true;
             // 
             // listBoxAwakening
@@ -1113,7 +1113,7 @@
             this.tabPagePets.Size = new System.Drawing.Size(468, 338);
             this.tabPagePets.TabIndex = 35;
             this.tabPagePets.Tag = "Pets";
-            this.tabPagePets.Text = "Pets";
+            this.tabPagePets.Text = "宠物";
             this.tabPagePets.UseVisualStyleBackColor = true;
             // 
             // listBoxPets
@@ -1137,7 +1137,7 @@
             this.tabPageTransform.Size = new System.Drawing.Size(468, 320);
             this.tabPageTransform.TabIndex = 36;
             this.tabPageTransform.Tag = "Transform";
-            this.tabPageTransform.Text = "Transform";
+            this.tabPageTransform.Text = "变身";
             this.tabPageTransform.UseVisualStyleBackColor = true;
             // 
             // listBoxTransform
@@ -1159,7 +1159,7 @@
             this.labelItemOdds.Name = "labelItemOdds";
             this.labelItemOdds.Size = new System.Drawing.Size(52, 13);
             this.labelItemOdds.TabIndex = 7;
-            this.labelItemOdds.Text = "Odds: 1 /";
+            this.labelItemOdds.Text = "几率: 1 /";
             // 
             // textBoxMinLevel
             // 
@@ -1200,7 +1200,7 @@
             this.labelRange.Name = "labelRange";
             this.labelRange.Size = new System.Drawing.Size(39, 13);
             this.labelRange.TabIndex = 15;
-            this.labelRange.Text = "Range";
+            this.labelRange.Text = "范围";
             // 
             // labelGold
             // 
@@ -1209,7 +1209,7 @@
             this.labelGold.Name = "labelGold";
             this.labelGold.Size = new System.Drawing.Size(32, 13);
             this.labelGold.TabIndex = 16;
-            this.labelGold.Text = "Gold:";
+            this.labelGold.Text = "金币:";
             // 
             // textBoxGoldOdds
             // 
@@ -1226,7 +1226,7 @@
             this.labelGoldOdds.Name = "labelGoldOdds";
             this.labelGoldOdds.Size = new System.Drawing.Size(52, 13);
             this.labelGoldOdds.TabIndex = 18;
-            this.labelGoldOdds.Text = "Odds: 1 /";
+            this.labelGoldOdds.Text = "几率: 1 /";
             // 
             // groupBoxGold
             // 
@@ -1240,7 +1240,7 @@
             this.groupBoxGold.Size = new System.Drawing.Size(144, 121);
             this.groupBoxGold.TabIndex = 20;
             this.groupBoxGold.TabStop = false;
-            this.groupBoxGold.Text = "Gold Settings";
+            this.groupBoxGold.Text = "金币设置";
             // 
             // buttonUpdateGold
             // 
@@ -1250,7 +1250,7 @@
             this.buttonUpdateGold.Name = "buttonUpdateGold";
             this.buttonUpdateGold.Size = new System.Drawing.Size(124, 28);
             this.buttonUpdateGold.TabIndex = 21;
-            this.buttonUpdateGold.Text = "Update";
+            this.buttonUpdateGold.Text = "更新";
             this.buttonUpdateGold.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonUpdateGold.UseVisualStyleBackColor = true;
             this.buttonUpdateGold.Click += new System.EventHandler(this.buttonUpdateGold_Click);
@@ -1278,7 +1278,7 @@
             this.groupBoxItem.Size = new System.Drawing.Size(144, 121);
             this.groupBoxItem.TabIndex = 21;
             this.groupBoxItem.TabStop = false;
-            this.groupBoxItem.Text = "Item Settings";
+            this.groupBoxItem.Text = "物品设置";
             // 
             // QuestOnlyCheckBox
             // 
@@ -1287,7 +1287,7 @@
             this.QuestOnlyCheckBox.Name = "QuestOnlyCheckBox";
             this.QuestOnlyCheckBox.Size = new System.Drawing.Size(78, 17);
             this.QuestOnlyCheckBox.TabIndex = 17;
-            this.QuestOnlyCheckBox.Text = "Quest Only";
+            this.QuestOnlyCheckBox.Text = "仅任务";
             this.QuestOnlyCheckBox.UseVisualStyleBackColor = true;
             // 
             // checkBoxCap
@@ -1297,7 +1297,7 @@
             this.checkBoxCap.Name = "checkBoxCap";
             this.checkBoxCap.Size = new System.Drawing.Size(128, 17);
             this.checkBoxCap.TabIndex = 16;
-            this.checkBoxCap.Text = "Set cap to mobs level";
+            this.checkBoxCap.Text = "上限设为怪物等级";
             this.checkBoxCap.UseVisualStyleBackColor = true;
             this.checkBoxCap.CheckedChanged += new System.EventHandler(this.checkBoxCap_CheckedChanged);
             // 
@@ -1307,7 +1307,7 @@
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(124, 42);
             this.buttonEdit.TabIndex = 9;
-            this.buttonEdit.Text = "Edit Drop File";
+            this.buttonEdit.Text = "编辑掉落文件";
             this.buttonEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.buttonEdit.UseVisualStyleBackColor = true;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
@@ -1318,7 +1318,7 @@
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(124, 42);
             this.buttonAdd.TabIndex = 8;
-            this.buttonAdd.Text = "Add Item";
+            this.buttonAdd.Text = "添加物品";
             this.buttonAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
@@ -1330,7 +1330,7 @@
             this.labelMobLevel.Name = "labelMobLevel";
             this.labelMobLevel.Size = new System.Drawing.Size(86, 13);
             this.labelMobLevel.TabIndex = 22;
-            this.labelMobLevel.Text = "Currently Editing:";
+            this.labelMobLevel.Text = "当前编辑:";
             // 
             // labelMonsterList
             // 
@@ -1339,7 +1339,7 @@
             this.labelMonsterList.Name = "labelMonsterList";
             this.labelMonsterList.Size = new System.Drawing.Size(79, 13);
             this.labelMonsterList.TabIndex = 23;
-            this.labelMonsterList.Text = "Monster Count:";
+            this.labelMonsterList.Text = "怪物数量:";
             // 
             // textBoxSearch
             // 
@@ -1358,7 +1358,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 25;
-            this.label2.Text = "Search:";
+            this.label2.Text = "搜索:";
             // 
             // DropGenForm
             // 
@@ -1380,7 +1380,7 @@
             this.MaximizeBox = false;
             this.Name = "DropGenForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Drop Builder";
+            this.Text = "掉落编辑器";
             this.tabControlSeperateItems.ResumeLayout(false);
             this.tabPageAmulet.ResumeLayout(false);
             this.tabPageArmour.ResumeLayout(false);

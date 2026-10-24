@@ -168,7 +168,7 @@
             label1.Name = "label1";
             label1.Size = new Size(48, 15);
             label1.TabIndex = 1;
-            label1.Text = "Name : ";
+            label1.Text = "名称: ";
             // 
             // label3
             // 
@@ -178,7 +178,7 @@
             label3.Name = "label3";
             label3.Size = new Size(43, 15);
             label3.TabIndex = 3;
-            label3.Text = "Level : ";
+            label3.Text = "等级: ";
             // 
             // NameTextBox
             // 
@@ -203,7 +203,7 @@
             UpdateButton.Name = "UpdateButton";
             UpdateButton.Size = new Size(88, 27);
             UpdateButton.TabIndex = 7;
-            UpdateButton.Text = "Update";
+            UpdateButton.Text = "更新";
             UpdateButton.UseVisualStyleBackColor = true;
             UpdateButton.Click += UpdateButton_Click;
             // 
@@ -214,7 +214,7 @@
             KickButton.Name = "KickButton";
             KickButton.Size = new Size(88, 27);
             KickButton.TabIndex = 8;
-            KickButton.Text = "Kick Player";
+            KickButton.Text = "踢下线";
             KickButton.UseVisualStyleBackColor = true;
             KickButton.Click += KickButton_Click;
             // 
@@ -233,7 +233,7 @@
             SendMessageButton.Name = "SendMessageButton";
             SendMessageButton.Size = new Size(68, 27);
             SendMessageButton.TabIndex = 10;
-            SendMessageButton.Text = "Send";
+            SendMessageButton.Text = "发送";
             SendMessageButton.UseVisualStyleBackColor = true;
             SendMessageButton.Click += SendMessageButton_Click;
             // 
@@ -270,7 +270,7 @@
             groupBox1.Size = new Size(341, 265);
             groupBox1.TabIndex = 11;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Character Info";
+            groupBox1.Text = "角色信息";
             // 
             // ATKSPDBox
             // 
@@ -371,7 +371,7 @@
             GameGold.Name = "GameGold";
             GameGold.Size = new Size(52, 13);
             GameGold.TabIndex = 22;
-            GameGold.Text = "Credits : ";
+            GameGold.Text = "元宝: ";
             // 
             // GameGoldTextBox
             // 
@@ -389,7 +389,7 @@
             Gold.Name = "Gold";
             Gold.Size = new Size(41, 15);
             Gold.TabIndex = 20;
-            Gold.Text = "Gold : ";
+            Gold.Text = "金币: ";
             // 
             // GoldTextBox
             // 
@@ -407,7 +407,7 @@
             PKPoints.Name = "PKPoints";
             PKPoints.Size = new Size(58, 15);
             PKPoints.TabIndex = 18;
-            PKPoints.Text = "PKPoint : ";
+            PKPoints.Text = "PK值: ";
             // 
             // PKPointsTextBox
             // 
@@ -425,7 +425,7 @@
             label12.Name = "label12";
             label12.Size = new Size(36, 15);
             label12.TabIndex = 16;
-            label12.Text = "EXP : ";
+            label12.Text = "经验: ";
             // 
             // ExpTextBox
             // 
@@ -444,7 +444,7 @@
             label2.Name = "label2";
             label2.Size = new Size(44, 15);
             label2.TabIndex = 2;
-            label2.Text = "Index : ";
+            label2.Text = "编号: ";
             // 
             // IndexTextBox
             // 
@@ -473,7 +473,7 @@
             groupBox2.Size = new Size(324, 157);
             groupBox2.TabIndex = 12;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Actions";
+            groupBox2.Text = "操作";
             // 
             // AccountBanButton
             // 
@@ -482,7 +482,7 @@
             AccountBanButton.Name = "AccountBanButton";
             AccountBanButton.Size = new Size(88, 27);
             AccountBanButton.TabIndex = 25;
-            AccountBanButton.Text = "Account Ban";
+            AccountBanButton.Text = "封禁账号";
             AccountBanButton.UseVisualStyleBackColor = true;
             AccountBanButton.Click += AccountBanButton_Click;
             // 
@@ -493,7 +493,7 @@
             OpenAccountButton.Name = "OpenAccountButton";
             OpenAccountButton.Size = new Size(115, 27);
             OpenAccountButton.TabIndex = 23;
-            OpenAccountButton.Text = "Open Account";
+            OpenAccountButton.Text = "打开账号";
             OpenAccountButton.UseVisualStyleBackColor = true;
             OpenAccountButton.Click += OpenAccountButton_Click;
             // 
@@ -504,7 +504,7 @@
             SafeZoneButton.Name = "SafeZoneButton";
             SafeZoneButton.Size = new Size(88, 27);
             SafeZoneButton.TabIndex = 22;
-            SafeZoneButton.Text = "Safezone";
+            SafeZoneButton.Text = "安全区";
             SafeZoneButton.UseVisualStyleBackColor = true;
             SafeZoneButton.Click += SafeZoneButton_Click;
             // 
@@ -516,7 +516,7 @@
             label9.Name = "label9";
             label9.Size = new Size(52, 15);
             label9.TabIndex = 21;
-            label9.Text = "Expires : ";
+            label9.Text = "到期: ";
             // 
             // ChatBanExpiryTextBox
             // 
@@ -534,7 +534,7 @@
             ChatBanButton.Name = "ChatBanButton";
             ChatBanButton.Size = new Size(88, 27);
             ChatBanButton.TabIndex = 19;
-            ChatBanButton.Text = "Chat Ban";
+            ChatBanButton.Text = "禁言";
             ChatBanButton.UseVisualStyleBackColor = true;
             ChatBanButton.Click += ChatBanButton_Click;
             // 
@@ -545,7 +545,7 @@
             KillPetsButton.Name = "KillPetsButton";
             KillPetsButton.Size = new Size(88, 27);
             KillPetsButton.TabIndex = 18;
-            KillPetsButton.Text = "Kill Pets";
+            KillPetsButton.Text = "杀死宠物";
             KillPetsButton.UseVisualStyleBackColor = true;
             KillPetsButton.Click += KillPetsButton_Click;
             // 
@@ -556,7 +556,7 @@
             KillButton.Name = "KillButton";
             KillButton.Size = new Size(88, 27);
             KillButton.TabIndex = 17;
-            KillButton.Text = "Kill Player";
+            KillButton.Text = "杀死玩家";
             KillButton.UseVisualStyleBackColor = true;
             KillButton.Click += KillButton_Click;
             // 
@@ -571,7 +571,7 @@
             groupBox3.Size = new Size(341, 57);
             groupBox3.TabIndex = 13;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Send Message";
+            groupBox3.Text = "发送消息";
             // 
             // CurrentMapLabel
             // 
@@ -591,7 +591,7 @@
             label5.Name = "label5";
             label5.Size = new Size(83, 15);
             label5.TabIndex = 16;
-            label5.Text = "Current Map : ";
+            label5.Text = "当前地图: ";
             // 
             // label6
             // 
@@ -601,7 +601,7 @@
             label6.Name = "label6";
             label6.Size = new Size(81, 15);
             label6.TabIndex = 19;
-            label6.Text = "Online Time : ";
+            label6.Text = "在线时间: ";
             // 
             // OnlineTimeLabel
             // 
@@ -621,7 +621,7 @@
             label8.Name = "label8";
             label8.Size = new Size(69, 15);
             label8.TabIndex = 23;
-            label8.Text = "Current IP : ";
+            label8.Text = "当前IP: ";
             // 
             // CurrentIPLabel
             // 
@@ -652,7 +652,7 @@
             groupBox4.Size = new Size(341, 95);
             groupBox4.TabIndex = 25;
             groupBox4.TabStop = false;
-            groupBox4.Text = "Details";
+            groupBox4.Text = "详情";
             // 
             // CurrentXY
             // 
@@ -672,7 +672,7 @@
             label7.Name = "label7";
             label7.Size = new Size(105, 15);
             label7.TabIndex = 26;
-            label7.Text = "Current Location : ";
+            label7.Text = "当前位置: ";
             // 
             // tabControl1
             // 
@@ -701,7 +701,7 @@
             PlayerInfoTab.Padding = new Padding(3);
             PlayerInfoTab.Size = new Size(779, 443);
             PlayerInfoTab.TabIndex = 0;
-            PlayerInfoTab.Text = "Player Info";
+            PlayerInfoTab.Text = "玩家信息";
             PlayerInfoTab.UseVisualStyleBackColor = true;
             // 
             // SearchBox
@@ -717,7 +717,7 @@
             SearchBox.Size = new Size(323, 261);
             SearchBox.TabIndex = 48;
             SearchBox.TabStop = false;
-            SearchBox.Text = "Search";
+            SearchBox.Text = "搜索";
             // 
             // OpenFlagsButton
             // 
@@ -725,7 +725,7 @@
             OpenFlagsButton.Name = "OpenFlagsButton";
             OpenFlagsButton.Size = new Size(128, 23);
             OpenFlagsButton.TabIndex = 54;
-            OpenFlagsButton.Text = "Open Flag Info";
+            OpenFlagsButton.Text = "打开标记信息";
             OpenFlagsButton.UseVisualStyleBackColor = true;
             OpenFlagsButton.Click += OpenFlagsButton_Click;
             // 
@@ -735,7 +735,7 @@
             EnableSelectedFlag.Name = "EnableSelectedFlag";
             EnableSelectedFlag.Size = new Size(128, 23);
             EnableSelectedFlag.TabIndex = 53;
-            EnableSelectedFlag.Text = "Enable Selected Flag";
+            EnableSelectedFlag.Text = "启用选中标记";
             EnableSelectedFlag.UseVisualStyleBackColor = true;
             EnableSelectedFlag.Click += EnableSelectedFlag_Click;
             // 
@@ -743,7 +743,7 @@
             // 
             FlagSearchBox.Location = new Point(196, 57);
             FlagSearchBox.Name = "FlagSearchBox";
-            FlagSearchBox.PlaceholderText = "Search Flag Number";
+            FlagSearchBox.PlaceholderText = "搜索标记编号";
             FlagSearchBox.Size = new Size(114, 23);
             FlagSearchBox.TabIndex = 52;
             FlagSearchBox.TextChanged += FlagSearchBox_TextChanged;
@@ -754,7 +754,7 @@
             DisableSelectedFlag.Name = "DisableSelectedFlag";
             DisableSelectedFlag.Size = new Size(128, 23);
             DisableSelectedFlag.TabIndex = 51;
-            DisableSelectedFlag.Text = "Disable Selected Flag";
+            DisableSelectedFlag.Text = "禁用选中标记";
             DisableSelectedFlag.UseVisualStyleBackColor = true;
             DisableSelectedFlag.Click += DisableSelectedFlag_Click;
             // 
@@ -765,7 +765,7 @@
             ActiveFlagsCheckBox.Name = "ActiveFlagsCheckBox";
             ActiveFlagsCheckBox.Size = new Size(117, 19);
             ActiveFlagsCheckBox.TabIndex = 50;
-            ActiveFlagsCheckBox.Text = "Show Active only";
+            ActiveFlagsCheckBox.Text = "仅显示已激活";
             ActiveFlagsCheckBox.UseVisualStyleBackColor = true;
             ActiveFlagsCheckBox.CheckedChanged += ActiveFlagsCheckBox_CheckedChanged;
             // 
@@ -783,12 +783,12 @@
             // 
             // columnHeader5
             // 
-            columnHeader5.Text = "Flag #";
+            columnHeader5.Text = "标记 #";
             columnHeader5.Width = 85;
             // 
             // columnHeader6
             // 
-            columnHeader6.Text = "Status";
+            columnHeader6.Text = "状态";
             columnHeader6.Width = 85;
             // 
             // QuestInfoTab
@@ -799,7 +799,7 @@
             QuestInfoTab.Padding = new Padding(3);
             QuestInfoTab.Size = new Size(779, 443);
             QuestInfoTab.TabIndex = 1;
-            QuestInfoTab.Text = "Quest Info";
+            QuestInfoTab.Text = "任务信息";
             QuestInfoTab.UseVisualStyleBackColor = true;
             // 
             // QuestInfoListViewNF
@@ -816,17 +816,17 @@
             // 
             // QuestIndexHeader
             // 
-            QuestIndexHeader.Text = "Index";
+            QuestIndexHeader.Text = "编号";
             QuestIndexHeader.Width = 100;
             // 
             // QuestStatusHeader
             // 
-            QuestStatusHeader.Text = "Status";
+            QuestStatusHeader.Text = "状态";
             QuestStatusHeader.Width = 100;
             // 
             // QuestNameHeader
             // 
-            QuestNameHeader.Text = "Name";
+            QuestNameHeader.Text = "名称";
             QuestNameHeader.Width = 200;
             // 
             // ItemInfoTab
@@ -836,7 +836,7 @@
             ItemInfoTab.Name = "ItemInfoTab";
             ItemInfoTab.Size = new Size(779, 443);
             ItemInfoTab.TabIndex = 2;
-            ItemInfoTab.Text = "Item Info";
+            ItemInfoTab.Text = "物品信息";
             ItemInfoTab.UseVisualStyleBackColor = true;
             // 
             // PlayerItemInfoListViewNF
@@ -858,22 +858,22 @@
             // 
             // LocationHeader
             // 
-            LocationHeader.Text = "Location";
+            LocationHeader.Text = "定位";
             LocationHeader.Width = 150;
             // 
             // NameHeader
             // 
-            NameHeader.Text = "Name";
+            NameHeader.Text = "名称";
             NameHeader.Width = 150;
             // 
             // CountHeader
             // 
-            CountHeader.Text = "Count";
+            CountHeader.Text = "计数";
             CountHeader.Width = 80;
             // 
             // DurabilityHeader
             // 
-            DurabilityHeader.Text = "Durability";
+            DurabilityHeader.Text = "耐久";
             DurabilityHeader.Width = 90;
             // 
             // MagicInfoTab
@@ -883,7 +883,7 @@
             MagicInfoTab.Name = "MagicInfoTab";
             MagicInfoTab.Size = new Size(779, 443);
             MagicInfoTab.TabIndex = 3;
-            MagicInfoTab.Text = "Magic Info";
+            MagicInfoTab.Text = "技能信息";
             MagicInfoTab.UseVisualStyleBackColor = true;
             // 
             // MagicListViewNF
@@ -900,22 +900,22 @@
             // 
             // MagicNameHeader
             // 
-            MagicNameHeader.Text = "Spell Name";
+            MagicNameHeader.Text = "技能名称";
             MagicNameHeader.Width = 150;
             // 
             // MagicLevelHeader
             // 
-            MagicLevelHeader.Text = "Level";
+            MagicLevelHeader.Text = "等级";
             MagicLevelHeader.Width = 50;
             // 
             // MagicExperienceHeader
             // 
-            MagicExperienceHeader.Text = "Experience";
+            MagicExperienceHeader.Text = "经验";
             MagicExperienceHeader.Width = 150;
             // 
             // Key
             // 
-            Key.Text = "Key";
+            Key.Text = "快捷键";
             Key.Width = 80;
             // 
             // PetInfoTab
@@ -925,7 +925,7 @@
             PetInfoTab.Name = "PetInfoTab";
             PetInfoTab.Size = new Size(779, 443);
             PetInfoTab.TabIndex = 4;
-            PetInfoTab.Text = "Pet Info";
+            PetInfoTab.Text = "宠物信息";
             PetInfoTab.UseVisualStyleBackColor = true;
             // 
             // PetView
@@ -942,12 +942,12 @@
             // 
             // PetName
             // 
-            PetName.Text = "Name";
+            PetName.Text = "名称";
             PetName.Width = 150;
             // 
             // Level
             // 
-            Level.Text = "Level";
+            Level.Text = "等级";
             // 
             // HP
             // 
@@ -955,7 +955,7 @@
             // 
             // Location
             // 
-            Location.Text = "Location";
+            Location.Text = "定位";
             Location.Width = 240;
             // 
             // HeroInfoTab
@@ -968,7 +968,7 @@
             HeroInfoTab.Padding = new Padding(3);
             HeroInfoTab.Size = new Size(779, 443);
             HeroInfoTab.TabIndex = 5;
-            HeroInfoTab.Text = "Hero Info";
+            HeroInfoTab.Text = "英雄信息";
             HeroInfoTab.UseVisualStyleBackColor = true;
             // 
             // groupBox5
@@ -1002,7 +1002,7 @@
             groupBox5.Size = new Size(341, 311);
             groupBox5.TabIndex = 26;
             groupBox5.TabStop = false;
-            groupBox5.Text = "Hero Info";
+            groupBox5.Text = "英雄信息";
             // 
             // label10
             // 
@@ -1012,7 +1012,7 @@
             label10.Name = "label10";
             label10.Size = new Size(43, 15);
             label10.TabIndex = 37;
-            label10.Text = "Class : ";
+            label10.Text = "职业: ";
             // 
             // HeroClassTextBox
             // 
@@ -1041,7 +1041,7 @@
             label11.Name = "label11";
             label11.Size = new Size(105, 15);
             label11.TabIndex = 36;
-            label11.Text = "Current Location : ";
+            label11.Text = "当前位置: ";
             // 
             // HeroUpdateButton
             // 
@@ -1050,7 +1050,7 @@
             HeroUpdateButton.Name = "HeroUpdateButton";
             HeroUpdateButton.Size = new Size(88, 27);
             HeroUpdateButton.TabIndex = 7;
-            HeroUpdateButton.Text = "Update";
+            HeroUpdateButton.Text = "更新";
             HeroUpdateButton.UseVisualStyleBackColor = true;
             HeroUpdateButton.Click += HeroUpdateButton_Click;
             // 
@@ -1072,7 +1072,7 @@
             label26.Name = "label26";
             label26.Size = new Size(83, 15);
             label26.TabIndex = 34;
-            label26.Text = "Current Map : ";
+            label26.Text = "当前地图: ";
             // 
             // HeroATKSPDBox
             // 
@@ -1172,7 +1172,7 @@
             label14.Name = "label14";
             label14.Size = new Size(36, 15);
             label14.TabIndex = 16;
-            label14.Text = "EXP : ";
+            label14.Text = "经验: ";
             // 
             // HeroExpTextBox
             // 
@@ -1191,7 +1191,7 @@
             label16.Name = "label16";
             label16.Size = new Size(48, 15);
             label16.TabIndex = 1;
-            label16.Text = "Name : ";
+            label16.Text = "名称: ";
             // 
             // label17
             // 
@@ -1201,7 +1201,7 @@
             label17.Name = "label17";
             label17.Size = new Size(43, 15);
             label17.TabIndex = 3;
-            label17.Text = "Level : ";
+            label17.Text = "等级: ";
             // 
             // HeroNameTextBox
             // 
@@ -1237,22 +1237,22 @@
             // 
             // columnHeader2
             // 
-            columnHeader2.Text = "Location";
+            columnHeader2.Text = "定位";
             columnHeader2.Width = 150;
             // 
             // columnHeader3
             // 
-            columnHeader3.Text = "Name";
+            columnHeader3.Text = "名称";
             columnHeader3.Width = 150;
             // 
             // columnHeader4
             // 
-            columnHeader4.Text = "Count";
+            columnHeader4.Text = "计数";
             columnHeader4.Width = 80;
             // 
             // columnHeader13
             // 
-            columnHeader13.Text = "Durability";
+            columnHeader13.Text = "耐久";
             columnHeader13.Width = 90;
             // 
             // HeroMagicList
@@ -1268,22 +1268,22 @@
             // 
             // columnHeader9
             // 
-            columnHeader9.Text = "Spell Name";
+            columnHeader9.Text = "技能名称";
             columnHeader9.Width = 150;
             // 
             // columnHeader10
             // 
-            columnHeader10.Text = "Level";
+            columnHeader10.Text = "等级";
             columnHeader10.Width = 50;
             // 
             // columnHeader11
             // 
-            columnHeader11.Text = "Experience";
+            columnHeader11.Text = "经验";
             columnHeader11.Width = 100;
             // 
             // columnHeader12
             // 
-            columnHeader12.Text = "Key";
+            columnHeader12.Text = "快捷键";
             columnHeader12.Width = 80;
             // 
             // PlayerInfoForm
@@ -1294,7 +1294,7 @@
             Controls.Add(tabControl1);
             Margin = new Padding(4, 3, 4, 3);
             Name = "PlayerInfoForm";
-            Text = "PlayerInfoForm";
+            Text = "玩家信息";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);

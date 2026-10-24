@@ -55,17 +55,17 @@
             // 
             // IndexHeader
             // 
-            IndexHeader.Text = "Index";
+            IndexHeader.Text = "编号";
             IndexHeader.Width = 80;
             // 
             // NameHeader
             // 
-            NameHeader.Text = "Player";
+            NameHeader.Text = "玩家";
             NameHeader.Width = 145;
             // 
             // AccountNameHeader
             // 
-            AccountNameHeader.Text = "Account";
+            AccountNameHeader.Text = "账号";
             AccountNameHeader.Width = 145;
             // 
             // CharacterCountLabel
@@ -75,7 +75,7 @@
             CharacterCountLabel.Name = "CharacterCountLabel";
             CharacterCountLabel.Size = new Size(103, 15);
             CharacterCountLabel.TabIndex = 1;
-            CharacterCountLabel.Text = "Characters count :";
+            CharacterCountLabel.Text = "角色数量:";
             // 
             // RefreshButton
             // 
@@ -83,7 +83,7 @@
             RefreshButton.Name = "RefreshButton";
             RefreshButton.Size = new Size(75, 23);
             RefreshButton.TabIndex = 2;
-            RefreshButton.Text = "Refresh";
+            RefreshButton.Text = "刷新";
             RefreshButton.UseVisualStyleBackColor = true;
             RefreshButton.Click += RefreshButton_Click;
             // 
@@ -94,7 +94,7 @@
             FindPlayerLabel.Name = "FindPlayerLabel";
             FindPlayerLabel.Size = new Size(74, 15);
             FindPlayerLabel.TabIndex = 3;
-            FindPlayerLabel.Text = "Find Player : ";
+            FindPlayerLabel.Text = "查找玩家: ";
             // 
             // FilterPlayerTextBox
             // 
@@ -117,7 +117,7 @@
             label1.Name = "label1";
             label1.Size = new Size(133, 15);
             label1.TabIndex = 5;
-            label1.Text = "Find Item (Name/UID) : ";
+            label1.Text = "查找物品(名称/UID): ";
             // 
             // MatchFilterCheckBox
             // 
@@ -126,7 +126,7 @@
             MatchFilterCheckBox.Name = "MatchFilterCheckBox";
             MatchFilterCheckBox.Size = new Size(89, 19);
             MatchFilterCheckBox.TabIndex = 7;
-            MatchFilterCheckBox.Text = "Match Filter";
+            MatchFilterCheckBox.Text = "匹配筛选";
             MatchFilterCheckBox.UseVisualStyleBackColor = true;
             // 
             // CharacterInfoForm
@@ -143,7 +143,7 @@
             Controls.Add(CharacterCountLabel);
             Controls.Add(CharactersList);
             Name = "CharacterInfoForm";
-            Text = "Characters";
+            Text = "角色";
             ResumeLayout(false);
             PerformLayout();
         }

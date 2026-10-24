@@ -154,7 +154,7 @@ namespace Server
             tabPage1.Padding = new Padding(4, 3, 4, 3);
             tabPage1.Size = new Size(558, 379);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Logs";
+            tabPage1.Text = "日志";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // LogTextBox
@@ -178,7 +178,7 @@ namespace Server
             tabPage2.Padding = new Padding(4, 3, 4, 3);
             tabPage2.Size = new Size(558, 379);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "Debug Logs";
+            tabPage2.Text = "调试日志";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // DebugLogTextBox
@@ -203,7 +203,7 @@ namespace Server
             tabPage3.Padding = new Padding(4, 3, 4, 3);
             tabPage3.Size = new Size(558, 379);
             tabPage3.TabIndex = 2;
-            tabPage3.Text = "Chat Logs";
+            tabPage3.Text = "聊天日志";
             tabPage3.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -218,7 +218,7 @@ namespace Server
             groupBox1.Size = new Size(550, 53);
             groupBox1.TabIndex = 7;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Send Message";
+            groupBox1.Text = "发送消息";
             // 
             // GlobalMessageButton
             // 
@@ -227,7 +227,7 @@ namespace Server
             GlobalMessageButton.Name = "GlobalMessageButton";
             GlobalMessageButton.Size = new Size(85, 28);
             GlobalMessageButton.TabIndex = 0;
-            GlobalMessageButton.Text = "Send";
+            GlobalMessageButton.Text = "发送";
             GlobalMessageButton.UseVisualStyleBackColor = true;
             GlobalMessageButton.Click += GlobalMessageButton_Click;
             // 
@@ -260,7 +260,7 @@ namespace Server
             tabPage4.Padding = new Padding(4, 3, 4, 3);
             tabPage4.Size = new Size(558, 379);
             tabPage4.TabIndex = 3;
-            tabPage4.Text = "Players Online";
+            tabPage4.Text = "在线玩家";
             // 
             // PlayersOnlineListView
             // 
@@ -284,25 +284,25 @@ namespace Server
             // 
             // indexHeader
             // 
-            indexHeader.Text = "Index";
+            indexHeader.Text = "编号";
             indexHeader.Width = 50;
             // 
             // nameHeader
             // 
-            nameHeader.Text = "Name";
+            nameHeader.Text = "名字";
             nameHeader.Width = 90;
             // 
             // levelHeader
             // 
-            levelHeader.Text = "Level";
+            levelHeader.Text = "等级";
             // 
             // classHeader
             // 
-            classHeader.Text = "Class";
+            classHeader.Text = "职业";
             // 
             // genderHeader
             // 
-            genderHeader.Text = "Gender";
+            genderHeader.Text = "性别";
             // 
             // tabPage5
             // 
@@ -312,7 +312,7 @@ namespace Server
             tabPage5.Padding = new Padding(3);
             tabPage5.Size = new Size(558, 379);
             tabPage5.TabIndex = 4;
-            tabPage5.Text = "Guilds";
+            tabPage5.Text = "行会";
             tabPage5.UseVisualStyleBackColor = true;
             // 
             // GuildListView
@@ -332,32 +332,32 @@ namespace Server
             // 
             // columnHeader1
             // 
-            columnHeader1.Text = "Index";
+            columnHeader1.Text = "编号";
             columnHeader1.Width = 45;
             // 
             // columnHeader2
             // 
-            columnHeader2.Text = "Name";
+            columnHeader2.Text = "名字";
             columnHeader2.Width = 80;
             // 
             // columnHeader3
             // 
-            columnHeader3.Text = "Leader";
+            columnHeader3.Text = "会长";
             columnHeader3.Width = 80;
             // 
             // columnHeader4
             // 
-            columnHeader4.Text = "Members";
+            columnHeader4.Text = "成员数";
             columnHeader4.Width = 70;
             // 
             // columnHeader5
             // 
-            columnHeader5.Text = "Level";
+            columnHeader5.Text = "等级";
             columnHeader5.Width = 75;
             // 
             // columnHeader6
             // 
-            columnHeader6.Text = "Gold";
+            columnHeader6.Text = "金币";
             columnHeader6.Width = 75;
             // 
             // columnHeader7
@@ -381,35 +381,35 @@ namespace Server
             PlayersLabel.BorderSides = ToolStripStatusLabelBorderSides.Left | ToolStripStatusLabelBorderSides.Top | ToolStripStatusLabelBorderSides.Right | ToolStripStatusLabelBorderSides.Bottom;
             PlayersLabel.Name = "PlayersLabel";
             PlayersLabel.Size = new Size(60, 19);
-            PlayersLabel.Text = "Players: 0";
+            PlayersLabel.Text = "玩家: 0";
             // 
             // MonsterLabel
             // 
             MonsterLabel.BorderSides = ToolStripStatusLabelBorderSides.Left | ToolStripStatusLabelBorderSides.Top | ToolStripStatusLabelBorderSides.Right | ToolStripStatusLabelBorderSides.Bottom;
             MonsterLabel.Name = "MonsterLabel";
             MonsterLabel.Size = new Size(72, 19);
-            MonsterLabel.Text = "Monsters: 0";
+            MonsterLabel.Text = "怪物: 0";
             // 
             // ConnectionsLabel
             // 
             ConnectionsLabel.BorderSides = ToolStripStatusLabelBorderSides.Left | ToolStripStatusLabelBorderSides.Top | ToolStripStatusLabelBorderSides.Right | ToolStripStatusLabelBorderSides.Bottom;
             ConnectionsLabel.Name = "ConnectionsLabel";
             ConnectionsLabel.Size = new Size(90, 19);
-            ConnectionsLabel.Text = "Connections: 0";
+            ConnectionsLabel.Text = "连接数: 0";
             // 
             // BlockedIPsLabel
             // 
             BlockedIPsLabel.BorderSides = ToolStripStatusLabelBorderSides.Left | ToolStripStatusLabelBorderSides.Top | ToolStripStatusLabelBorderSides.Right | ToolStripStatusLabelBorderSides.Bottom;
             BlockedIPsLabel.Name = "BlockedIPsLabel";
             BlockedIPsLabel.Size = new Size(83, 19);
-            BlockedIPsLabel.Text = "Blocked IPs: 0";
+            BlockedIPsLabel.Text = "被封IP: 0";
             // 
             // CycleDelayLabel
             // 
             CycleDelayLabel.BorderSides = ToolStripStatusLabelBorderSides.Left | ToolStripStatusLabelBorderSides.Top | ToolStripStatusLabelBorderSides.Right | ToolStripStatusLabelBorderSides.Bottom;
             CycleDelayLabel.Name = "CycleDelayLabel";
             CycleDelayLabel.Size = new Size(81, 19);
-            CycleDelayLabel.Text = "CycleDelay: 0";
+            CycleDelayLabel.Text = "循环延迟: 0";
             // 
             // MainMenu
             // 
@@ -427,34 +427,34 @@ namespace Server
             controlToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { startServerToolStripMenuItem, stopServerToolStripMenuItem, rebootServerToolStripMenuItem, clearBlockedIPsToolStripMenuItem, toolStripMenuItem1, toolStripSeparator1, closeServerToolStripMenuItem, reloadToolStripMenuItem });
             controlToolStripMenuItem.Name = "controlToolStripMenuItem";
             controlToolStripMenuItem.Size = new Size(59, 20);
-            controlToolStripMenuItem.Text = "Control";
+            controlToolStripMenuItem.Text = "控制";
             // 
             // startServerToolStripMenuItem
             // 
             startServerToolStripMenuItem.Name = "startServerToolStripMenuItem";
             startServerToolStripMenuItem.Size = new Size(164, 22);
-            startServerToolStripMenuItem.Text = "Start Server";
+            startServerToolStripMenuItem.Text = "启动服务器";
             startServerToolStripMenuItem.Click += startServerToolStripMenuItem_Click;
             // 
             // stopServerToolStripMenuItem
             // 
             stopServerToolStripMenuItem.Name = "stopServerToolStripMenuItem";
             stopServerToolStripMenuItem.Size = new Size(164, 22);
-            stopServerToolStripMenuItem.Text = "Stop Server";
+            stopServerToolStripMenuItem.Text = "停止服务器";
             stopServerToolStripMenuItem.Click += stopServerToolStripMenuItem_Click;
             // 
             // rebootServerToolStripMenuItem
             // 
             rebootServerToolStripMenuItem.Name = "rebootServerToolStripMenuItem";
             rebootServerToolStripMenuItem.Size = new Size(164, 22);
-            rebootServerToolStripMenuItem.Text = "Reboot Server";
+            rebootServerToolStripMenuItem.Text = "重启服务器";
             rebootServerToolStripMenuItem.Click += rebootServerToolStripMenuItem_Click;
             // 
             // clearBlockedIPsToolStripMenuItem
             // 
             clearBlockedIPsToolStripMenuItem.Name = "clearBlockedIPsToolStripMenuItem";
             clearBlockedIPsToolStripMenuItem.Size = new Size(164, 22);
-            clearBlockedIPsToolStripMenuItem.Text = "Clear Blocked IPs";
+            clearBlockedIPsToolStripMenuItem.Text = "清除被封IP";
             clearBlockedIPsToolStripMenuItem.Click += clearBlockedIPsToolStripMenuItem_Click;
             // 
             // toolStripMenuItem1
@@ -471,7 +471,7 @@ namespace Server
             // 
             closeServerToolStripMenuItem.Name = "closeServerToolStripMenuItem";
             closeServerToolStripMenuItem.Size = new Size(164, 22);
-            closeServerToolStripMenuItem.Text = "Close Server";
+            closeServerToolStripMenuItem.Text = "关闭服务器";
             closeServerToolStripMenuItem.Click += closeServerToolStripMenuItem_Click;
             // 
             // reloadToolStripMenuItem
@@ -479,7 +479,7 @@ namespace Server
             reloadToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { nPCsToolStripMenuItem, dropsToolStripMenuItem, lineMessageToolStripMenuItem });
             reloadToolStripMenuItem.Name = "reloadToolStripMenuItem";
             reloadToolStripMenuItem.Size = new Size(164, 22);
-            reloadToolStripMenuItem.Text = "Reload";
+            reloadToolStripMenuItem.Text = "重新加载";
             // 
             // nPCsToolStripMenuItem
             // 
@@ -492,14 +492,14 @@ namespace Server
             // 
             dropsToolStripMenuItem.Name = "dropsToolStripMenuItem";
             dropsToolStripMenuItem.Size = new Size(145, 22);
-            dropsToolStripMenuItem.Text = "Drops";
+            dropsToolStripMenuItem.Text = "掉落暴率(Drops)";
             dropsToolStripMenuItem.Click += dropsToolStripMenuItem_Click;
             // 
             // lineMessageToolStripMenuItem
             // 
             lineMessageToolStripMenuItem.Name = "lineMessageToolStripMenuItem";
             lineMessageToolStripMenuItem.Size = new Size(145, 22);
-            lineMessageToolStripMenuItem.Text = "Line Message";
+            lineMessageToolStripMenuItem.Text = "公告(Line Message)";
             lineMessageToolStripMenuItem.Click += lineMessageToolStripMenuItem_Click;
             // 
             // accountToolStripMenuItem
@@ -507,27 +507,27 @@ namespace Server
             accountToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { accountsToolStripMenuItem1, marketToolStripMenuItem, namelistsToolStripMenuItem });
             accountToolStripMenuItem.Name = "accountToolStripMenuItem";
             accountToolStripMenuItem.Size = new Size(64, 20);
-            accountToolStripMenuItem.Text = "Account";
+            accountToolStripMenuItem.Text = "账号";
             // 
             // accountsToolStripMenuItem1
             // 
             accountsToolStripMenuItem1.Name = "accountsToolStripMenuItem1";
             accountsToolStripMenuItem1.Size = new Size(126, 22);
-            accountsToolStripMenuItem1.Text = "Accounts";
+            accountsToolStripMenuItem1.Text = "账号管理";
             accountsToolStripMenuItem1.Click += accountsToolStripMenuItem1_Click;
             // 
             // marketToolStripMenuItem
             // 
             marketToolStripMenuItem.Name = "marketToolStripMenuItem";
             marketToolStripMenuItem.Size = new Size(126, 22);
-            marketToolStripMenuItem.Text = "Market";
+            marketToolStripMenuItem.Text = "市场";
             marketToolStripMenuItem.Click += marketToolStripMenuItem_Click;
             // 
             // namelistsToolStripMenuItem
             // 
             namelistsToolStripMenuItem.Name = "namelistsToolStripMenuItem";
             namelistsToolStripMenuItem.Size = new Size(126, 22);
-            namelistsToolStripMenuItem.Text = "Namelists";
+            namelistsToolStripMenuItem.Text = "名称列表";
             namelistsToolStripMenuItem.Click += namelistsToolStripMenuItem_Click;
             // 
             // databaseFormsToolStripMenuItem
@@ -535,13 +535,13 @@ namespace Server
             databaseFormsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { mapInfoToolStripMenuItem, itemInfoToolStripMenuItem, monsterInfoToolStripMenuItem, itemNEWToolStripMenuItem, monsterExperimentalToolStripMenuItem, nPCInfoToolStripMenuItem, questInfoToolStripMenuItem, magicInfoToolStripMenuItem, gameshopToolStripMenuItem, recipeToolStripMenuItem });
             databaseFormsToolStripMenuItem.Name = "databaseFormsToolStripMenuItem";
             databaseFormsToolStripMenuItem.Size = new Size(67, 20);
-            databaseFormsToolStripMenuItem.Text = "Database";
+            databaseFormsToolStripMenuItem.Text = "数据库";
             // 
             // mapInfoToolStripMenuItem
             // 
             mapInfoToolStripMenuItem.Name = "mapInfoToolStripMenuItem";
             mapInfoToolStripMenuItem.Size = new Size(203, 22);
-            mapInfoToolStripMenuItem.Text = "Map";
+            mapInfoToolStripMenuItem.Text = "地图";
             mapInfoToolStripMenuItem.Click += mapInfoToolStripMenuItem_Click;
             // 
             // itemInfoToolStripMenuItem
@@ -565,14 +565,14 @@ namespace Server
             // 
             itemNEWToolStripMenuItem.Name = "itemNEWToolStripMenuItem";
             itemNEWToolStripMenuItem.Size = new Size(203, 22);
-            itemNEWToolStripMenuItem.Text = "Item";
+            itemNEWToolStripMenuItem.Text = "物品";
             itemNEWToolStripMenuItem.Click += itemNEWToolStripMenuItem_Click;
             // 
             // monsterExperimentalToolStripMenuItem
             // 
             monsterExperimentalToolStripMenuItem.Name = "monsterExperimentalToolStripMenuItem";
             monsterExperimentalToolStripMenuItem.Size = new Size(203, 22);
-            monsterExperimentalToolStripMenuItem.Text = "Monster";
+            monsterExperimentalToolStripMenuItem.Text = "怪物";
             monsterExperimentalToolStripMenuItem.Click += monsterExperimentalToolStripMenuItem_Click;
             // 
             // nPCInfoToolStripMenuItem
@@ -586,28 +586,28 @@ namespace Server
             // 
             questInfoToolStripMenuItem.Name = "questInfoToolStripMenuItem";
             questInfoToolStripMenuItem.Size = new Size(203, 22);
-            questInfoToolStripMenuItem.Text = "Quest";
+            questInfoToolStripMenuItem.Text = "任务";
             questInfoToolStripMenuItem.Click += questInfoToolStripMenuItem_Click;
             // 
             // magicInfoToolStripMenuItem
             // 
             magicInfoToolStripMenuItem.Name = "magicInfoToolStripMenuItem";
             magicInfoToolStripMenuItem.Size = new Size(203, 22);
-            magicInfoToolStripMenuItem.Text = "Magic";
+            magicInfoToolStripMenuItem.Text = "技能";
             magicInfoToolStripMenuItem.Click += magicInfoToolStripMenuItem_Click;
             // 
             // gameshopToolStripMenuItem
             // 
             gameshopToolStripMenuItem.Name = "gameshopToolStripMenuItem";
             gameshopToolStripMenuItem.Size = new Size(203, 22);
-            gameshopToolStripMenuItem.Text = "Gameshop";
+            gameshopToolStripMenuItem.Text = "游戏商城";
             gameshopToolStripMenuItem.Click += gameshopToolStripMenuItem_Click;
             // 
             // recipeToolStripMenuItem
             // 
             recipeToolStripMenuItem.Name = "recipeToolStripMenuItem";
             recipeToolStripMenuItem.Size = new Size(203, 22);
-            recipeToolStripMenuItem.Text = "Recipe";
+            recipeToolStripMenuItem.Text = "配方";
             recipeToolStripMenuItem.Click += recipeToolStripMenuItem_Click;
             // 
             // configToolStripMenuItem1
@@ -615,20 +615,20 @@ namespace Server
             configToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { serverToolStripMenuItem, balanceToolStripMenuItem, systemToolStripMenuItem, monsterTunerToolStripMenuItem, dropBuilderToolStripMenuItem });
             configToolStripMenuItem1.Name = "configToolStripMenuItem1";
             configToolStripMenuItem1.Size = new Size(55, 20);
-            configToolStripMenuItem1.Text = "Config";
+            configToolStripMenuItem1.Text = "配置";
             // 
             // serverToolStripMenuItem
             // 
             serverToolStripMenuItem.Name = "serverToolStripMenuItem";
             serverToolStripMenuItem.Size = new Size(152, 22);
-            serverToolStripMenuItem.Text = "Server";
+            serverToolStripMenuItem.Text = "服务";
             serverToolStripMenuItem.Click += serverToolStripMenuItem_Click;
             // 
             // balanceToolStripMenuItem
             // 
             balanceToolStripMenuItem.Name = "balanceToolStripMenuItem";
             balanceToolStripMenuItem.Size = new Size(152, 22);
-            balanceToolStripMenuItem.Text = "Balance";
+            balanceToolStripMenuItem.Text = "平衡";
             balanceToolStripMenuItem.Click += balanceToolStripMenuItem_Click;
             // 
             // systemToolStripMenuItem
@@ -636,118 +636,118 @@ namespace Server
             systemToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dragonSystemToolStripMenuItem, miningToolStripMenuItem, guildsToolStripMenuItem, fishingToolStripMenuItem, mailToolStripMenuItem, goodsToolStripMenuItem, refiningToolStripMenuItem, relationshipToolStripMenuItem, mentorToolStripMenuItem, gemToolStripMenuItem, conquestToolStripMenuItem, respawnsToolStripMenuItem, heroesToolStripMenuItem });
             systemToolStripMenuItem.Name = "systemToolStripMenuItem";
             systemToolStripMenuItem.Size = new Size(152, 22);
-            systemToolStripMenuItem.Text = "System";
+            systemToolStripMenuItem.Text = "系统";
             // 
             // dragonSystemToolStripMenuItem
             // 
             dragonSystemToolStripMenuItem.Name = "dragonSystemToolStripMenuItem";
             dragonSystemToolStripMenuItem.Size = new Size(139, 22);
-            dragonSystemToolStripMenuItem.Text = "Dragon";
+            dragonSystemToolStripMenuItem.Text = "龙系统";
             dragonSystemToolStripMenuItem.Click += dragonSystemToolStripMenuItem_Click;
             // 
             // miningToolStripMenuItem
             // 
             miningToolStripMenuItem.Name = "miningToolStripMenuItem";
             miningToolStripMenuItem.Size = new Size(139, 22);
-            miningToolStripMenuItem.Text = "Mining";
+            miningToolStripMenuItem.Text = "挖矿";
             miningToolStripMenuItem.Click += miningToolStripMenuItem_Click;
             // 
             // guildsToolStripMenuItem
             // 
             guildsToolStripMenuItem.Name = "guildsToolStripMenuItem";
             guildsToolStripMenuItem.Size = new Size(139, 22);
-            guildsToolStripMenuItem.Text = "Guilds";
+            guildsToolStripMenuItem.Text = "行会";
             guildsToolStripMenuItem.Click += guildsToolStripMenuItem_Click;
             // 
             // fishingToolStripMenuItem
             // 
             fishingToolStripMenuItem.Name = "fishingToolStripMenuItem";
             fishingToolStripMenuItem.Size = new Size(139, 22);
-            fishingToolStripMenuItem.Text = "Fishing";
+            fishingToolStripMenuItem.Text = "钓鱼";
             fishingToolStripMenuItem.Click += fishingToolStripMenuItem_Click;
             // 
             // mailToolStripMenuItem
             // 
             mailToolStripMenuItem.Name = "mailToolStripMenuItem";
             mailToolStripMenuItem.Size = new Size(139, 22);
-            mailToolStripMenuItem.Text = "Mail";
+            mailToolStripMenuItem.Text = "邮件";
             mailToolStripMenuItem.Click += mailToolStripMenuItem_Click;
             // 
             // goodsToolStripMenuItem
             // 
             goodsToolStripMenuItem.Name = "goodsToolStripMenuItem";
             goodsToolStripMenuItem.Size = new Size(139, 22);
-            goodsToolStripMenuItem.Text = "Goods";
+            goodsToolStripMenuItem.Text = "商品";
             goodsToolStripMenuItem.Click += goodsToolStripMenuItem_Click;
             // 
             // refiningToolStripMenuItem
             // 
             refiningToolStripMenuItem.Name = "refiningToolStripMenuItem";
             refiningToolStripMenuItem.Size = new Size(139, 22);
-            refiningToolStripMenuItem.Text = "Refining";
+            refiningToolStripMenuItem.Text = "精炼";
             refiningToolStripMenuItem.Click += refiningToolStripMenuItem_Click;
             // 
             // relationshipToolStripMenuItem
             // 
             relationshipToolStripMenuItem.Name = "relationshipToolStripMenuItem";
             relationshipToolStripMenuItem.Size = new Size(139, 22);
-            relationshipToolStripMenuItem.Text = "Relationship";
+            relationshipToolStripMenuItem.Text = "关系";
             relationshipToolStripMenuItem.Click += relationshipToolStripMenuItem_Click;
             // 
             // mentorToolStripMenuItem
             // 
             mentorToolStripMenuItem.Name = "mentorToolStripMenuItem";
             mentorToolStripMenuItem.Size = new Size(139, 22);
-            mentorToolStripMenuItem.Text = "Mentor";
+            mentorToolStripMenuItem.Text = "师徒";
             mentorToolStripMenuItem.Click += mentorToolStripMenuItem_Click;
             // 
             // gemToolStripMenuItem
             // 
             gemToolStripMenuItem.Name = "gemToolStripMenuItem";
             gemToolStripMenuItem.Size = new Size(139, 22);
-            gemToolStripMenuItem.Text = "Gem";
+            gemToolStripMenuItem.Text = "宝石";
             gemToolStripMenuItem.Click += gemToolStripMenuItem_Click;
             // 
             // conquestToolStripMenuItem
             // 
             conquestToolStripMenuItem.Name = "conquestToolStripMenuItem";
             conquestToolStripMenuItem.Size = new Size(139, 22);
-            conquestToolStripMenuItem.Text = "Conquest";
+            conquestToolStripMenuItem.Text = "攻城";
             conquestToolStripMenuItem.Click += conquestToolStripMenuItem_Click;
             // 
             // respawnsToolStripMenuItem
             // 
             respawnsToolStripMenuItem.Name = "respawnsToolStripMenuItem";
             respawnsToolStripMenuItem.Size = new Size(139, 22);
-            respawnsToolStripMenuItem.Text = "SpawnTick";
+            respawnsToolStripMenuItem.Text = "刷新间隔";
             respawnsToolStripMenuItem.Click += respawnsToolStripMenuItem_Click;
             // 
             // heroesToolStripMenuItem
             // 
             heroesToolStripMenuItem.Name = "heroesToolStripMenuItem";
             heroesToolStripMenuItem.Size = new Size(139, 22);
-            heroesToolStripMenuItem.Text = "Heroes";
+            heroesToolStripMenuItem.Text = "英雄";
             heroesToolStripMenuItem.Click += heroesToolStripMenuItem_Click;
             // 
             // monsterTunerToolStripMenuItem
             // 
             monsterTunerToolStripMenuItem.Name = "monsterTunerToolStripMenuItem";
             monsterTunerToolStripMenuItem.Size = new Size(152, 22);
-            monsterTunerToolStripMenuItem.Text = "Monster Tuner";
+            monsterTunerToolStripMenuItem.Text = "怪物调校";
             monsterTunerToolStripMenuItem.Click += monsterTunerToolStripMenuItem_Click;
             // 
             // dropBuilderToolStripMenuItem
             // 
             dropBuilderToolStripMenuItem.Name = "dropBuilderToolStripMenuItem";
             dropBuilderToolStripMenuItem.Size = new Size(152, 22);
-            dropBuilderToolStripMenuItem.Text = "Drop Builder";
+            dropBuilderToolStripMenuItem.Text = "暴率调节";
             dropBuilderToolStripMenuItem.Click += dropBuilderToolStripMenuItem_Click;
             // 
             // CharacterToolStripMenuItem
             // 
             CharacterToolStripMenuItem.Name = "CharacterToolStripMenuItem";
             CharacterToolStripMenuItem.Size = new Size(75, 20);
-            CharacterToolStripMenuItem.Text = "Characters";
+            CharacterToolStripMenuItem.Text = "角色";
             CharacterToolStripMenuItem.Click += CharacterToolStripMenuItem_Click;
             // 
             // UpTimeLabel
@@ -757,7 +757,7 @@ namespace Server
             UpTimeLabel.Name = "UpTimeLabel";
             UpTimeLabel.ReadOnly = true;
             UpTimeLabel.Size = new Size(200, 20);
-            UpTimeLabel.Text = "Uptime:";
+            UpTimeLabel.Text = "运行时间:";
             // 
             // InterfaceTimer
             // 
@@ -766,7 +766,7 @@ namespace Server
             // 
             // mapHeader
             // 
-            mapHeader.Text = "Current Map";
+            mapHeader.Text = "当前地图";
             mapHeader.Width = 220;
             // 
             // SMain
@@ -782,7 +782,7 @@ namespace Server
             Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             Name = "SMain";
-            Text = "Legend of Mir 2 Server";
+            Text = "热血传奇2 服务端";
             FormClosing += SMain_FormClosing;
             Load += SMain_Load;
             MainTabs.ResumeLayout(false);

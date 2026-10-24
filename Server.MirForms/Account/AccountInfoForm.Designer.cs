@@ -107,7 +107,7 @@ namespace Server
             CreateButton.Name = "CreateButton";
             CreateButton.Size = new Size(88, 27);
             CreateButton.TabIndex = 9;
-            CreateButton.Text = "Create";
+            CreateButton.Text = "创建";
             CreateButton.UseVisualStyleBackColor = true;
             CreateButton.Click += CreateButton_Click;
             // 
@@ -119,7 +119,7 @@ namespace Server
             label1.Name = "label1";
             label1.Size = new Size(98, 15);
             label1.TabIndex = 11;
-            label1.Text = "Filter Account ID:";
+            label1.Text = "筛选账号ID:";
             // 
             // FilterTextBox
             // 
@@ -136,7 +136,7 @@ namespace Server
             RefreshButton.Name = "RefreshButton";
             RefreshButton.Size = new Size(88, 27);
             RefreshButton.TabIndex = 13;
-            RefreshButton.Text = "Refresh";
+            RefreshButton.Text = "刷新";
             RefreshButton.UseVisualStyleBackColor = true;
             RefreshButton.Click += RefreshButton_Click;
             // 
@@ -193,7 +193,7 @@ namespace Server
             Delaccbtn.Name = "Delaccbtn";
             Delaccbtn.Size = new Size(88, 27);
             Delaccbtn.TabIndex = 40;
-            Delaccbtn.Text = "Delete Acc";
+            Delaccbtn.Text = "删除账号";
             Delaccbtn.UseVisualStyleBackColor = true;
             Delaccbtn.Click += Delaccbtn_Click;
             // 
@@ -211,31 +211,31 @@ namespace Server
             // 
             // characterName
             // 
-            characterName.Text = "Name";
+            characterName.Text = "名称";
             characterName.Width = 80;
             // 
             // characterClass
             // 
-            characterClass.Text = "Class";
+            characterClass.Text = "职业";
             characterClass.Width = 80;
             // 
             // characterLevel
             // 
-            characterLevel.Text = "Level";
+            characterLevel.Text = "等级";
             // 
             // characterPKPoints
             // 
-            characterPKPoints.Text = "PKPoints";
+            characterPKPoints.Text = "PK值";
             characterPKPoints.Width = 59;
             // 
             // characterGuild
             // 
-            characterGuild.Text = "Guild";
+            characterGuild.Text = "行会";
             characterGuild.Width = 100;
             // 
             // characterStatus
             // 
-            characterStatus.Text = "Status";
+            characterStatus.Text = "状态";
             characterStatus.Width = 163;
             // 
             // LastIPSearch
@@ -266,7 +266,7 @@ namespace Server
             PasswordChangeCheckBox.Name = "PasswordChangeCheckBox";
             PasswordChangeCheckBox.Size = new Size(110, 19);
             PasswordChangeCheckBox.TabIndex = 34;
-            PasswordChangeCheckBox.Text = "Require Change";
+            PasswordChangeCheckBox.Text = "要求修改";
             PasswordChangeCheckBox.UseVisualStyleBackColor = true;
             PasswordChangeCheckBox.CheckedChanged += PasswordChangeCheckBox_CheckedChanged;
             // 
@@ -277,7 +277,7 @@ namespace Server
             setPasswordButton.Name = "setPasswordButton";
             setPasswordButton.Size = new Size(98, 27);
             setPasswordButton.TabIndex = 33;
-            setPasswordButton.Text = "Set Password";
+            setPasswordButton.Text = "设置密码";
             setPasswordButton.UseVisualStyleBackColor = true;
             setPasswordButton.Click += button1_Click;
             // 
@@ -288,7 +288,7 @@ namespace Server
             ClearStoragePasswordButton.Name = "ClearStoragePasswordButton";
             ClearStoragePasswordButton.Size = new Size(160, 27);
             ClearStoragePasswordButton.TabIndex = 35;
-            ClearStoragePasswordButton.Text = "Clear Storage Password";
+            ClearStoragePasswordButton.Text = "清除仓库密码";
             ClearStoragePasswordButton.UseVisualStyleBackColor = true;
             ClearStoragePasswordButton.Click += ClearStoragePasswordButton_Click;
             // 
@@ -300,7 +300,7 @@ namespace Server
             AdminCheckBox.Name = "AdminCheckBox";
             AdminCheckBox.Size = new Size(99, 19);
             AdminCheckBox.TabIndex = 32;
-            AdminCheckBox.Text = "Administrator";
+            AdminCheckBox.Text = "管理员";
             AdminCheckBox.UseVisualStyleBackColor = true;
             AdminCheckBox.CheckedChanged += AdminCheckBox_CheckedChanged;
             // 
@@ -311,7 +311,7 @@ namespace Server
             PermBanButton.Name = "PermBanButton";
             PermBanButton.Size = new Size(88, 27);
             PermBanButton.TabIndex = 31;
-            PermBanButton.Text = "Perm Ban";
+            PermBanButton.Text = "永久封禁";
             PermBanButton.UseVisualStyleBackColor = true;
             PermBanButton.Click += PermBanButton_Click;
             // 
@@ -322,7 +322,7 @@ namespace Server
             WeekBanButton.Name = "WeekBanButton";
             WeekBanButton.Size = new Size(88, 27);
             WeekBanButton.TabIndex = 30;
-            WeekBanButton.Text = "Week Ban";
+            WeekBanButton.Text = "封禁一周";
             WeekBanButton.UseVisualStyleBackColor = true;
             WeekBanButton.Click += WeekBanButton_Click;
             // 
@@ -333,7 +333,7 @@ namespace Server
             DayBanButton.Name = "DayBanButton";
             DayBanButton.Size = new Size(88, 27);
             DayBanButton.TabIndex = 29;
-            DayBanButton.Text = "Day Ban";
+            DayBanButton.Text = "封禁一天";
             DayBanButton.UseVisualStyleBackColor = true;
             DayBanButton.Click += DayBanButton_Click;
             // 
@@ -345,7 +345,7 @@ namespace Server
             BannedCheckBox.Name = "BannedCheckBox";
             BannedCheckBox.Size = new Size(66, 19);
             BannedCheckBox.TabIndex = 28;
-            BannedCheckBox.Text = "Banned";
+            BannedCheckBox.Text = "已封禁";
             BannedCheckBox.UseVisualStyleBackColor = true;
             BannedCheckBox.CheckedChanged += BannedCheckBox_CheckedChanged;
             // 
@@ -366,7 +366,7 @@ namespace Server
             label14.Name = "label14";
             label14.Size = new Size(69, 15);
             label14.TabIndex = 26;
-            label14.Text = "Expiry Date:";
+            label14.Text = "到期日期:";
             // 
             // BanReasonTextBox
             // 
@@ -385,7 +385,7 @@ namespace Server
             label13.Name = "label13";
             label13.Size = new Size(71, 15);
             label13.TabIndex = 24;
-            label13.Text = "Ban Reason:";
+            label13.Text = "封禁原因:";
             // 
             // LastDateTextBox
             // 
@@ -404,7 +404,7 @@ namespace Server
             label11.Name = "label11";
             label11.Size = new Size(58, 15);
             label11.TabIndex = 22;
-            label11.Text = "Last Date:";
+            label11.Text = "最后登录日期:";
             // 
             // LastIPTextBox
             // 
@@ -423,7 +423,7 @@ namespace Server
             label12.Name = "label12";
             label12.Size = new Size(44, 15);
             label12.TabIndex = 20;
-            label12.Text = "Last IP:";
+            label12.Text = "最后IP:";
             // 
             // CreationDateTextBox
             // 
@@ -442,7 +442,7 @@ namespace Server
             label9.Name = "label9";
             label9.Size = new Size(82, 15);
             label9.TabIndex = 18;
-            label9.Text = "Creation Date:";
+            label9.Text = "创建日期:";
             // 
             // CreationIPTextBox
             // 
@@ -461,7 +461,7 @@ namespace Server
             label10.Name = "label10";
             label10.Size = new Size(68, 15);
             label10.TabIndex = 16;
-            label10.Text = "Creation IP:";
+            label10.Text = "创建IP:";
             // 
             // EMailTextBox
             // 
@@ -480,7 +480,7 @@ namespace Server
             label8.Name = "label8";
             label8.Size = new Size(84, 15);
             label8.TabIndex = 14;
-            label8.Text = "EMail Address:";
+            label8.Text = "电子邮箱:";
             // 
             // AnswerTextBox
             // 
@@ -499,7 +499,7 @@ namespace Server
             label7.Name = "label7";
             label7.Size = new Size(49, 15);
             label7.TabIndex = 12;
-            label7.Text = "Answer:";
+            label7.Text = "答案:";
             // 
             // QuestionTextBox
             // 
@@ -518,7 +518,7 @@ namespace Server
             label6.Name = "label6";
             label6.Size = new Size(58, 15);
             label6.TabIndex = 10;
-            label6.Text = "Question:";
+            label6.Text = "问题:";
             // 
             // BirthDateTextBox
             // 
@@ -537,7 +537,7 @@ namespace Server
             label5.Name = "label5";
             label5.Size = new Size(62, 15);
             label5.TabIndex = 8;
-            label5.Text = "Birth Date:";
+            label5.Text = "出生日期:";
             // 
             // UserNameTextBox
             // 
@@ -556,7 +556,7 @@ namespace Server
             label4.Name = "label4";
             label4.Size = new Size(68, 15);
             label4.TabIndex = 6;
-            label4.Text = "User Name:";
+            label4.Text = "用户名:";
             // 
             // label3
             // 
@@ -566,7 +566,7 @@ namespace Server
             label3.Name = "label3";
             label3.Size = new Size(60, 15);
             label3.TabIndex = 4;
-            label3.Text = "Password:";
+            label3.Text = "密码:";
             // 
             // AccountIDTextBox
             // 
@@ -585,7 +585,7 @@ namespace Server
             label2.Name = "label2";
             label2.Size = new Size(69, 15);
             label2.TabIndex = 2;
-            label2.Text = "Account ID:";
+            label2.Text = "账号ID:";
             // 
             // label15
             // 
@@ -595,7 +595,7 @@ namespace Server
             label15.Name = "label15";
             label15.Size = new Size(71, 15);
             label15.TabIndex = 15;
-            label15.Text = "Filter Player:";
+            label15.Text = "筛选玩家:";
             // 
             // FilterPlayerTextBox
             // 
@@ -624,46 +624,46 @@ namespace Server
             // 
             // indexHeader
             // 
-            indexHeader.Text = "Index";
+            indexHeader.Text = "编号";
             // 
             // accountIDHeader
             // 
-            accountIDHeader.Text = "Account ID";
+            accountIDHeader.Text = "账号ID";
             accountIDHeader.Width = 92;
             // 
             // userNameHeader
             // 
-            userNameHeader.Text = "User Name";
+            userNameHeader.Text = "用户名";
             userNameHeader.Width = 75;
             // 
             // adminHeader
             // 
-            adminHeader.Text = "Administrator";
+            adminHeader.Text = "管理员";
             adminHeader.Width = 73;
             // 
             // bannedHeader
             // 
-            bannedHeader.Text = "Banned";
+            bannedHeader.Text = "已封禁";
             bannedHeader.Width = 54;
             // 
             // banReasonHeader
             // 
-            banReasonHeader.Text = "Ban Reason";
+            banReasonHeader.Text = "封禁原因";
             banReasonHeader.Width = 74;
             // 
             // expiryDateHeader
             // 
-            expiryDateHeader.Text = "Expiry Date";
+            expiryDateHeader.Text = "到期日期";
             expiryDateHeader.Width = 81;
             // 
             // Gold
             // 
-            Gold.Text = "Gold";
+            Gold.Text = "金币";
             Gold.Width = 100;
             // 
             // GameGold
             // 
-            GameGold.Text = "GameGold";
+            GameGold.Text = "元宝";
             GameGold.Width = 70;
             // 
             // MatchFilterCheckBox
@@ -674,7 +674,7 @@ namespace Server
             MatchFilterCheckBox.Name = "MatchFilterCheckBox";
             MatchFilterCheckBox.Size = new Size(89, 19);
             MatchFilterCheckBox.TabIndex = 17;
-            MatchFilterCheckBox.Text = "Match Filter";
+            MatchFilterCheckBox.Text = "匹配筛选";
             MatchFilterCheckBox.UseVisualStyleBackColor = true;
             // 
             // WipeCharButton
@@ -684,7 +684,7 @@ namespace Server
             WipeCharButton.Name = "WipeCharButton";
             WipeCharButton.Size = new Size(134, 27);
             WipeCharButton.TabIndex = 18;
-            WipeCharButton.Text = "Wipe All Characters";
+            WipeCharButton.Text = "清空所有角色";
             WipeCharButton.UseVisualStyleBackColor = true;
             WipeCharButton.Click += WipeCharButton_Click;
             // 
@@ -703,7 +703,7 @@ namespace Server
             TotalServerGold.Name = "TotalServerGold";
             TotalServerGold.Size = new Size(98, 15);
             TotalServerGold.TabIndex = 21;
-            TotalServerGold.Text = "Total Server Gold:";
+            TotalServerGold.Text = "服务器总金币:";
             // 
             // ServerCreditTextBox
             // 
@@ -720,7 +720,7 @@ namespace Server
             TotalServerCredit.Name = "TotalServerCredit";
             TotalServerCredit.Size = new Size(105, 15);
             TotalServerCredit.TabIndex = 23;
-            TotalServerCredit.Text = "Total Server Credit:";
+            TotalServerCredit.Text = "服务器总元宝:";
             // 
             // FilterIPTextBox
             // 
@@ -738,7 +738,7 @@ namespace Server
             label16.Name = "label16";
             label16.Size = new Size(49, 15);
             label16.TabIndex = 25;
-            label16.Text = "Filter IP:";
+            label16.Text = "筛选IP:";
             // 
             // AccountInfoForm
             // 
@@ -763,7 +763,7 @@ namespace Server
             Controls.Add(AccountInfoListView);
             Margin = new Padding(4, 3, 4, 3);
             Name = "AccountInfoForm";
-            Text = "AccountInfoForm";
+            Text = "账号信息";
             FormClosed += AccountInfoForm_FormClosed;
             AccountInfoPanel.ResumeLayout(false);
             AccountInfoPanel.PerformLayout();
