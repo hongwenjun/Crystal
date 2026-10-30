@@ -99,8 +99,8 @@ namespace Server.Database
             Modified.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
             Modified.DataPropertyName = "Modified";
             Modified.Frozen = true;
-            Modified.HeaderText = "Modified";
-            Modified.Name = "已修改";
+            Modified.HeaderText = "已修改";
+            Modified.Name = "Modified";
             Modified.ReadOnly = true;
             Modified.Width = 61;
             // 
