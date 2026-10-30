@@ -94,7 +94,7 @@
             tabPage1.Padding = new Padding(4, 3, 4, 3);
             tabPage1.Size = new Size(694, 303);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Info";
+            tabPage1.Text = "信息";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // QuestInfoPanel
@@ -144,7 +144,7 @@
             label5.Name = "label5";
             label5.Size = new Size(122, 15);
             label5.TabIndex = 59;
-            label5.Text = "Time Limit (Seconds):";
+            label5.Text = "时间限制（秒）:";
             // 
             // TimeLimitTextBox
             // 
@@ -163,7 +163,7 @@
             label4.Name = "label4";
             label4.Size = new Size(112, 15);
             label4.TabIndex = 57;
-            label4.Text = "Required Max Level:";
+            label4.Text = "需求最大等级:";
             // 
             // RequiredMaxLevelTextBox
             // 
@@ -183,7 +183,7 @@
             label3.Name = "label3";
             label3.Size = new Size(56, 15);
             label3.TabIndex = 55;
-            label3.Text = "Flag Text:";
+            label3.Text = "标记文本:";
             // 
             // QFlagTextBox
             // 
@@ -202,7 +202,7 @@
             label14.Name = "label14";
             label14.Size = new Size(58, 15);
             label14.TabIndex = 53;
-            label14.Text = "Item Text:";
+            label14.Text = "物品文本:";
             // 
             // label12
             // 
@@ -212,7 +212,7 @@
             label12.Name = "label12";
             label12.Size = new Size(50, 15);
             label12.TabIndex = 52;
-            label12.Text = "Kill Text:";
+            label12.Text = "击杀文本:";
             // 
             // label10
             // 
@@ -222,7 +222,7 @@
             label10.Name = "label10";
             label10.Size = new Size(60, 15);
             label10.TabIndex = 51;
-            label10.Text = "Goto Text:";
+            label10.Text = "前往文本:";
             // 
             // QItemTextBox
             // 
@@ -259,7 +259,7 @@
             label9.Name = "label9";
             label9.Size = new Size(87, 15);
             label9.TabIndex = 46;
-            label9.Text = "Required Class:";
+            label9.Text = "需求职业:";
             // 
             // label8
             // 
@@ -269,7 +269,7 @@
             label8.Name = "label8";
             label8.Size = new Size(91, 15);
             label8.TabIndex = 45;
-            label8.Text = "Required Quest:";
+            label8.Text = "前置任务:";
             // 
             // label7
             // 
@@ -279,7 +279,7 @@
             label7.Name = "label7";
             label7.Size = new Size(111, 15);
             label7.TabIndex = 44;
-            label7.Text = "Required Min Level:";
+            label7.Text = "需求最小等级:";
             // 
             // RequiredClassComboBox
             // 
@@ -321,7 +321,7 @@
             label2.Name = "label2";
             label2.Size = new Size(35, 15);
             label2.TabIndex = 32;
-            label2.Text = "Type:";
+            label2.Text = "类型:";
             // 
             // QTypeComboBox
             // 
@@ -342,7 +342,7 @@
             label11.Name = "label11";
             label11.Size = new Size(63, 15);
             label11.TabIndex = 23;
-            label11.Text = "File Name:";
+            label11.Text = "文件名:";
             // 
             // OpenQButton
             // 
@@ -351,7 +351,7 @@
             OpenQButton.Name = "OpenQButton";
             OpenQButton.Size = new Size(88, 27);
             OpenQButton.TabIndex = 30;
-            OpenQButton.Text = "Open Script";
+            OpenQButton.Text = "打开脚本";
             OpenQButton.UseVisualStyleBackColor = true;
             OpenQButton.Click += OpenQButton_Click;
             // 
@@ -372,7 +372,7 @@
             label29.Name = "label29";
             label29.Size = new Size(43, 15);
             label29.TabIndex = 21;
-            label29.Text = "Group:";
+            label29.Text = "分组:";
             // 
             // QGroupTextBox
             // 
@@ -402,7 +402,7 @@
             label13.Name = "label13";
             label13.Size = new Size(42, 15);
             label13.TabIndex = 15;
-            label13.Text = "Name:";
+            label13.Text = "名称:";
             // 
             // QuestIndexTextBox
             // 
@@ -421,7 +421,7 @@
             label1.Name = "label1";
             label1.Size = new Size(72, 15);
             label1.TabIndex = 4;
-            label1.Text = "Quest Index:";
+            label1.Text = "任务编号:";
             // 
             // RemoveButton
             // 
@@ -430,7 +430,7 @@
             RemoveButton.Name = "RemoveButton";
             RemoveButton.Size = new Size(88, 27);
             RemoveButton.TabIndex = 14;
-            RemoveButton.Text = "Remove";
+            RemoveButton.Text = "移除";
             RemoveButton.UseVisualStyleBackColor = true;
             RemoveButton.Click += RemoveButton_Click;
             // 
@@ -441,7 +441,7 @@
             AddButton.Name = "AddButton";
             AddButton.Size = new Size(88, 27);
             AddButton.TabIndex = 13;
-            AddButton.Text = "Add";
+            AddButton.Text = "添加";
             AddButton.UseVisualStyleBackColor = true;
             AddButton.Click += AddButton_Click;
             // 
@@ -465,7 +465,7 @@
             PasteMButton.Name = "PasteMButton";
             PasteMButton.Size = new Size(88, 27);
             PasteMButton.TabIndex = 22;
-            PasteMButton.Text = "Paste";
+            PasteMButton.Text = "粘贴";
             PasteMButton.UseVisualStyleBackColor = true;
             PasteMButton.Click += PasteMButton_Click;
             // 
@@ -476,7 +476,7 @@
             CopyMButton.Name = "CopyMButton";
             CopyMButton.Size = new Size(88, 27);
             CopyMButton.TabIndex = 21;
-            CopyMButton.Text = "Copy";
+            CopyMButton.Text = "复制";
             CopyMButton.UseVisualStyleBackColor = true;
             // 
             // ExportButton
@@ -486,7 +486,7 @@
             ExportButton.Name = "ExportButton";
             ExportButton.Size = new Size(88, 27);
             ExportButton.TabIndex = 23;
-            ExportButton.Text = "Export All";
+            ExportButton.Text = "导出全部";
             ExportButton.UseVisualStyleBackColor = true;
             ExportButton.Click += ExportAllButton_Click;
             // 
@@ -497,7 +497,7 @@
             ImportButton.Name = "ImportButton";
             ImportButton.Size = new Size(88, 27);
             ImportButton.TabIndex = 24;
-            ImportButton.Text = "Import";
+            ImportButton.Text = "导入数据";
             ImportButton.UseVisualStyleBackColor = true;
             ImportButton.Click += ImportButton_Click;
             // 
@@ -508,7 +508,7 @@
             ExportSelectedButton.Name = "ExportSelectedButton";
             ExportSelectedButton.Size = new Size(136, 27);
             ExportSelectedButton.TabIndex = 25;
-            ExportSelectedButton.Text = "Export Selected";
+            ExportSelectedButton.Text = "导出选中行";
             ExportSelectedButton.UseVisualStyleBackColor = true;
             ExportSelectedButton.Click += ExportSelected_Click;
             // 
@@ -516,7 +516,7 @@
             // 
             QuestSearchBox.Location = new Point(12, 43);
             QuestSearchBox.Name = "QuestSearchBox";
-            QuestSearchBox.PlaceholderText = "Search...";
+            QuestSearchBox.PlaceholderText = "搜索...";
             QuestSearchBox.Size = new Size(182, 23);
             QuestSearchBox.TabIndex = 26;
             QuestSearchBox.TextChanged += QuestSearchBox_TextChanged;
@@ -538,7 +538,7 @@
             Controls.Add(QuestInfoListBox);
             Margin = new Padding(4, 3, 4, 3);
             Name = "QuestInfoForm";
-            Text = "QuestInfoForm";
+            Text = "任务信息窗口";
             FormClosed += QuestInfoForm_FormClosed;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

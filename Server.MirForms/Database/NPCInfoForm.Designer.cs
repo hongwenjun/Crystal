@@ -138,7 +138,7 @@
             tabPage1.Padding = new Padding(4, 3, 4, 3);
             tabPage1.Size = new Size(813, 354);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Info";
+            tabPage1.Text = "信息";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // NPCPreview
@@ -157,7 +157,7 @@
             TeleportToCheckBox.Name = "TeleportToCheckBox";
             TeleportToCheckBox.Size = new Size(121, 21);
             TeleportToCheckBox.TabIndex = 63;
-            TeleportToCheckBox.Text = "Can Teleport To";
+            TeleportToCheckBox.Text = "可传送至";
             TeleportToCheckBox.UseVisualStyleBackColor = true;
             TeleportToCheckBox.CheckedChanged += TeleportToCheckBox_CheckedChanged;
             // 
@@ -169,7 +169,7 @@
             label15.Name = "label15";
             label15.Size = new Size(36, 17);
             label15.TabIndex = 62;
-            label15.Text = "Icon:";
+            label15.Text = "图标:";
             // 
             // BigMapIconTextBox
             // 
@@ -189,7 +189,7 @@
             ShowBigMapCheckBox.Name = "ShowBigMapCheckBox";
             ShowBigMapCheckBox.Size = new Size(127, 21);
             ShowBigMapCheckBox.TabIndex = 60;
-            ShowBigMapCheckBox.Text = "Show on BigMap";
+            ShowBigMapCheckBox.Text = "在大地图显示";
             ShowBigMapCheckBox.UseVisualStyleBackColor = true;
             ShowBigMapCheckBox.CheckedChanged += ShowBigMapCheckBox_CheckedChanged;
             // 
@@ -201,7 +201,7 @@
             label14.Name = "label14";
             label14.Size = new Size(66, 17);
             label14.TabIndex = 59;
-            label14.Text = "Conquest:";
+            label14.Text = "攻城:";
             // 
             // ConquestHidden_combo
             // 
@@ -223,7 +223,7 @@
             label2.Name = "label2";
             label2.Size = new Size(38, 17);
             label2.TabIndex = 32;
-            label2.Text = "Map:";
+            label2.Text = "地图:";
             // 
             // MapComboBox
             // 
@@ -244,7 +244,7 @@
             label11.Name = "label11";
             label11.Size = new Size(69, 17);
             label11.TabIndex = 23;
-            label11.Text = "File Name:";
+            label11.Text = "文件名:";
             // 
             // OpenNButton
             // 
@@ -253,7 +253,7 @@
             OpenNButton.Name = "OpenNButton";
             OpenNButton.Size = new Size(88, 31);
             OpenNButton.TabIndex = 30;
-            OpenNButton.Text = "Open Script";
+            OpenNButton.Text = "打开脚本";
             OpenNButton.UseVisualStyleBackColor = true;
             OpenNButton.Click += OpenNButton_Click;
             // 
@@ -275,7 +275,7 @@
             label29.Name = "label29";
             label29.Size = new Size(37, 17);
             label29.TabIndex = 21;
-            label29.Text = "Rate:";
+            label29.Text = "倍率:";
             // 
             // NRateTextBox
             // 
@@ -294,7 +294,7 @@
             ClearHButton.Name = "ClearHButton";
             ClearHButton.Size = new Size(88, 31);
             ClearHButton.TabIndex = 19;
-            ClearHButton.Text = "Clear History";
+            ClearHButton.Text = "清除历史";
             ClearHButton.UseVisualStyleBackColor = true;
             // 
             // NNameTextBox
@@ -314,7 +314,7 @@
             label13.Name = "label13";
             label13.Size = new Size(46, 17);
             label13.TabIndex = 15;
-            label13.Text = "Name:";
+            label13.Text = "名称:";
             // 
             // NPCIndexTextBox
             // 
@@ -333,7 +333,7 @@
             label24.Name = "label24";
             label24.Size = new Size(48, 17);
             label24.TabIndex = 13;
-            label24.Text = "Image:";
+            label24.Text = "图像:";
             // 
             // label1
             // 
@@ -343,7 +343,7 @@
             label1.Name = "label1";
             label1.Size = new Size(72, 17);
             label1.TabIndex = 4;
-            label1.Text = "NPC Index:";
+            label1.Text = "NPC编号:";
             // 
             // NImageTextBox
             // 
@@ -373,7 +373,7 @@
             label28.Name = "label28";
             label28.Size = new Size(52, 17);
             label28.TabIndex = 10;
-            label28.Text = "From Y:";
+            label28.Text = "起始Y:";
             // 
             // label30
             // 
@@ -383,7 +383,7 @@
             label30.Name = "label30";
             label30.Size = new Size(53, 17);
             label30.TabIndex = 3;
-            label30.Text = "From X:";
+            label30.Text = "起始X:";
             // 
             // NYTextBox
             // 
@@ -422,7 +422,7 @@
             tabPage2.Name = "tabPage2";
             tabPage2.Size = new Size(813, 354);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "Visibility";
+            tabPage2.Text = "可见性";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // ConquestVisible_checkbox
@@ -434,7 +434,7 @@
             ConquestVisible_checkbox.Name = "ConquestVisible_checkbox";
             ConquestVisible_checkbox.Size = new Size(166, 21);
             ConquestVisible_checkbox.TabIndex = 56;
-            ConquestVisible_checkbox.Text = "Visible during Conquest";
+            ConquestVisible_checkbox.Text = "攻城期间可见";
             ConquestVisible_checkbox.UseVisualStyleBackColor = true;
             ConquestVisible_checkbox.CheckedChanged += ConquestVisible_checkbox_CheckedChanged;
             // 
@@ -456,7 +456,7 @@
             label12.Name = "label12";
             label12.Size = new Size(86, 17);
             label12.TabIndex = 54;
-            label12.Text = "Needed Flag:";
+            label12.Text = "需要标记:";
             // 
             // label10
             // 
@@ -466,13 +466,13 @@
             label10.Name = "label10";
             label10.Size = new Size(84, 17);
             label10.TabIndex = 53;
-            label10.Text = "Day to Show:";
+            label10.Text = "显示日期:";
             // 
             // Day_combo
             // 
             Day_combo.DropDownStyle = ComboBoxStyle.DropDownList;
             Day_combo.FormattingEnabled = true;
-            Day_combo.Items.AddRange(new object[] { "", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" });
+            Day_combo.Items.AddRange(new object[] { "", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" });
             Day_combo.Location = new Point(131, 77);
             Day_combo.Margin = new Padding(4, 3, 4, 3);
             Day_combo.Name = "Day_combo";
@@ -484,7 +484,7 @@
             // 
             Class_combo.DropDownStyle = ComboBoxStyle.DropDownList;
             Class_combo.FormattingEnabled = true;
-            Class_combo.Items.AddRange(new object[] { "", "Warrior", "Wizard", "Taoist", "Assassin", "Archer" });
+            Class_combo.Items.AddRange(new object[] { "", "战士", "法师", "道士", "刺客", "弓箭手"});
             Class_combo.Location = new Point(131, 37);
             Class_combo.Margin = new Padding(4, 3, 4, 3);
             Class_combo.Name = "Class_combo";
@@ -524,7 +524,7 @@
             label8.Name = "label8";
             label8.Size = new Size(77, 17);
             label8.TabIndex = 48;
-            label8.Text = "End Minute:";
+            label8.Text = "结束分钟:";
             // 
             // label9
             // 
@@ -534,7 +534,7 @@
             label9.Name = "label9";
             label9.Size = new Size(66, 17);
             label9.TabIndex = 47;
-            label9.Text = "End Hour:";
+            label9.Text = "结束小时:";
             // 
             // StartMin_num
             // 
@@ -567,7 +567,7 @@
             TimeVisible_checkbox.Name = "TimeVisible_checkbox";
             TimeVisible_checkbox.Size = new Size(169, 21);
             TimeVisible_checkbox.TabIndex = 44;
-            TimeVisible_checkbox.Text = "Only Visible at set Times";
+            TimeVisible_checkbox.Text = "仅在设定时间可见";
             TimeVisible_checkbox.UseVisualStyleBackColor = true;
             TimeVisible_checkbox.CheckedChanged += TimeVisible_checkbox_CheckedChanged;
             // 
@@ -579,7 +579,7 @@
             label7.Name = "label7";
             label7.Size = new Size(69, 17);
             label7.TabIndex = 43;
-            label7.Text = "Max Level:";
+            label7.Text = "最大等级:";
             // 
             // MaxLev_textbox
             // 
@@ -599,7 +599,7 @@
             label6.Name = "label6";
             label6.Size = new Size(98, 17);
             label6.TabIndex = 40;
-            label6.Text = "Class Required:";
+            label6.Text = "需要职业:";
             // 
             // label5
             // 
@@ -609,7 +609,7 @@
             label5.Name = "label5";
             label5.Size = new Size(82, 17);
             label5.TabIndex = 37;
-            label5.Text = "Start Minute:";
+            label5.Text = "开始分钟:";
             // 
             // label4
             // 
@@ -619,7 +619,7 @@
             label4.Name = "label4";
             label4.Size = new Size(71, 17);
             label4.TabIndex = 36;
-            label4.Text = "Start Hour:";
+            label4.Text = "开始小时:";
             // 
             // label3
             // 
@@ -629,7 +629,7 @@
             label3.Name = "label3";
             label3.Size = new Size(66, 17);
             label3.TabIndex = 34;
-            label3.Text = "Min Level:";
+            label3.Text = "最小等级:";
             // 
             // MinLev_textbox
             // 
@@ -648,7 +648,7 @@
             RemoveButton.Name = "RemoveButton";
             RemoveButton.Size = new Size(88, 31);
             RemoveButton.TabIndex = 14;
-            RemoveButton.Text = "Remove";
+            RemoveButton.Text = "移除";
             RemoveButton.UseVisualStyleBackColor = true;
             RemoveButton.Click += RemoveButton_Click;
             // 
@@ -659,7 +659,7 @@
             AddButton.Name = "AddButton";
             AddButton.Size = new Size(88, 31);
             AddButton.TabIndex = 13;
-            AddButton.Text = "Add";
+            AddButton.Text = "添加";
             AddButton.UseVisualStyleBackColor = true;
             AddButton.Click += AddButton_Click;
             // 
@@ -684,7 +684,7 @@
             PasteMButton.Name = "PasteMButton";
             PasteMButton.Size = new Size(88, 31);
             PasteMButton.TabIndex = 22;
-            PasteMButton.Text = "Paste";
+            PasteMButton.Text = "粘贴";
             PasteMButton.UseVisualStyleBackColor = true;
             PasteMButton.Click += PasteMButton_Click;
             // 
@@ -695,7 +695,7 @@
             CopyMButton.Name = "CopyMButton";
             CopyMButton.Size = new Size(88, 31);
             CopyMButton.TabIndex = 21;
-            CopyMButton.Text = "Copy";
+            CopyMButton.Text = "复制";
             CopyMButton.UseVisualStyleBackColor = true;
             CopyMButton.Click += CopyMButton_Click;
             // 
@@ -706,7 +706,7 @@
             ExportButton.Name = "ExportButton";
             ExportButton.Size = new Size(88, 31);
             ExportButton.TabIndex = 23;
-            ExportButton.Text = "Export All";
+            ExportButton.Text = "导出全部";
             ExportButton.UseVisualStyleBackColor = true;
             ExportButton.Click += ExportAllButton_Click;
             // 
@@ -717,7 +717,7 @@
             ImportButton.Name = "ImportButton";
             ImportButton.Size = new Size(88, 31);
             ImportButton.TabIndex = 24;
-            ImportButton.Text = "Import";
+            ImportButton.Text = "导入数据";
             ImportButton.UseVisualStyleBackColor = true;
             ImportButton.Click += ImportButton_Click;
             // 
@@ -728,7 +728,7 @@
             ExportSelectedButton.Name = "ExportSelectedButton";
             ExportSelectedButton.Size = new Size(136, 31);
             ExportSelectedButton.TabIndex = 25;
-            ExportSelectedButton.Text = "Export Selected";
+            ExportSelectedButton.Text = "导出选中行";
             ExportSelectedButton.UseVisualStyleBackColor = true;
             ExportSelectedButton.Click += ExportSelected_Click;
             // 
@@ -736,7 +736,7 @@
             // 
             NPCSearchBox.Location = new Point(14, 56);
             NPCSearchBox.Name = "NPCSearchBox";
-            NPCSearchBox.PlaceholderText = "Search...";
+            NPCSearchBox.PlaceholderText = "搜索...";
             NPCSearchBox.Size = new Size(367, 23);
             NPCSearchBox.TabIndex = 26;
             NPCSearchBox.TextChanged += NPCSearchBox_TextChanged;
@@ -758,7 +758,7 @@
             Controls.Add(NPCInfoListBox);
             Margin = new Padding(4, 3, 4, 3);
             Name = "NPCInfoForm";
-            Text = "NPCInfoForm";
+            Text = "NPC信息窗口";
             FormClosed += NPCInfoForm_FormClosed;
             Load += NPCInfoForm_Load;
             tabControl1.ResumeLayout(false);

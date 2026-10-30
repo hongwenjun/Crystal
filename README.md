@@ -1,9 +1,12 @@
 # Mir2 服务器程序 部分汉化
 ## 编译命令:
-### dotnet.exe build '.\Legend of Mir.sln'
+### dotnet build -c Release '.\Legend of Mir.sln'
 
 ##  Download .NET 8.0 SDK (v8.0.404) - Windows x64 Installer
 ##  dotnet-sdk-8.0.404-win-x64.exe
+
+## ## CRYSTAL传奇2开源版 客户端资源下载
+![](https://raw.githubusercontent.com/hongwenjun/img/refs/heads/master/png/Mir2_Client.png)
 
 <h1 align="center">
 Legend of Mir 2 - Official Public Crystal Source
@@ -18,20 +21,21 @@ Legend of Mir 2 - Official Public Crystal Source
 
 <h2 align="center">
   
-Crystal is the most widely used open-source server and client engine for The Legend of Mir 2, developed and maintained by the LOMCN community.
-Originally created by Jamie and contributors, Crystal is a modern, fully managed C# implementation of the classic Mir 2 server architecture, designed to be stable, flexible, and easy to build upon.
+Crystal是《热血传奇2》（The Legend of Mir 2）使用最广泛的开源服务器和客户端引擎，由LOMCN社区开发和维护。
 
-The project faithfully recreates the gameplay systems of the original 1999 MMORPG by ActozSoft and Wemade Entertainment, while also introducing modern improvements such as:
+Crystal最初由Jamie及贡献者创建，是对经典Mir 2服务器架构的现代化、完全托管式C#实现，旨在稳定、灵活且易于扩展。
 
-🧰 Modular, readable C# codebase for both client and server
+该项目忠实还原了ActozSoft和Wemade Entertainment于1999年推出的原版MMORPG的游戏玩法系统，同时还引入了现代化改进，例如：
 
-🗺️ Custom map editor and data tools
+🧰 客户端和服务器均采用模块化、可读性强的C#代码库
 
-⚡ Performance improvements and bug fixes over legacy server files
+🗺️ 自定义地图编辑器和数据工具
 
-🌍 Support for custom content, new features, and community expansions
+⚡ 相比旧版服务器文件，性能更优、Bug更少
 
-Crystal has become the foundation for most private Legend of Mir 2 servers worldwide, serving as a cornerstone of the Mir development scene since its public release on LOMCN
+🌍 支持自定义内容、新功能和社区扩展
+
+Crystal已成为全球大多数《热血传奇2》私服的基础，自其在LOMCN公开发布以来，一直是Mir开发生态的基石。
 </h2>
 
 ---
